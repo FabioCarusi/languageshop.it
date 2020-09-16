@@ -1,0 +1,3 @@
+[submodule "themes/themes/navigator-hugo"]
+	path = themes/themes/navigator-hugo
+	url = https://github.com/themefisher/navigator-hugo
