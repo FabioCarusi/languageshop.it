@@ -3,12 +3,12 @@
 <section class="hero-area">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="video-player">
                     <img class="img-fluid rounded" src="{{ with .Site.Params.hero.videoThumb }}{{.| absURL }}{{ end }}" alt="video-thumb">
-                    <a class="play-icon" href="javascript:void(0)">
+                    <!-- <a class="play-icon" href="javascript:void(0)">
                         <i class="tf-ion-play" data-video="{{ with .Site.Params.hero.videoURL }}{{.}}{{ end }}?autoplay=1"></i>
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <div class="col-md-6">
@@ -19,13 +19,13 @@
                     {{ with .Site.Params.hero.description }}
                         <p>{{ . }}</p>
                     {{ end }}
-                    {{ if .Site.Params.hero.button }}
+                    <!-- {{ if .Site.Params.hero.button }}
                         <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
                             <li class="list-inline-item">
                                 <a href="{{ with .Site.Params.hero.btnURL }}{{.}}{{ end }}" target="_blank" class="btn btn-main">{{ with .Site.Params.hero.btnText }}{{.}}{{ end }}</a>
                             </li>
                         </ul>
-                    {{ end }}
+                    {{ end }} -->
                 </div>
             </div>
         </div>
