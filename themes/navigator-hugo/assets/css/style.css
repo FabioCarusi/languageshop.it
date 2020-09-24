@@ -446,7 +446,7 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background: #1f2532;
+  background: #242582;
   padding: 50px 0;
   text-align: center;
   color: #fff;
@@ -468,7 +468,7 @@ a:focus, a:hover {
 
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  background: #2f2fa2;
 }
 
 .top-bar {
@@ -487,7 +487,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li > a {
-  color: #707d8f;
+  color:whitesmoke;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -583,7 +583,7 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #1f2532;
+  background: #242582;
 }
 
 @media (max-width: 480px) {
@@ -609,7 +609,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block p {
-  color: #707d8f;
+  color: whitesmoke;
   margin-bottom: 20px;
 }
 
@@ -1707,15 +1707,15 @@ a:focus, a:hover {
   Footer section
 ==================================================================*/
 .top-footer {
-  background-color: #222222;
-  border-top: 1px solid #404040;
+  background-color: #242582;
+  border-top: 1px solid #242584;
   padding: 100px 0 80px;
 }
 
 .top-footer h3 {
   font-size: 16px;
   line-height: 1.5;
-  color: #fff;
+  color: whitesmoke;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1725,7 +1725,7 @@ a:focus, a:hover {
 .top-footer p {
   font-size: 13px;
   line-height: 30px;
-  color: #bdbdbd;
+  color: white;
   font-weight: 300;
   padding-right: 20px;
 }
@@ -1733,7 +1733,7 @@ a:focus, a:hover {
 .top-footer li a {
   font-size: 13px;
   line-height: 30px;
-  color: #bdbdbd;
+  color: white;
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: capitalize;
@@ -1748,15 +1748,15 @@ a:focus, a:hover {
 
 .footer-bottom {
   text-align: center;
-  background-color: #1b1b1b;
-  border-top: 1px solid #2c2c2c;
+  background-color: #2f2fa2;
+  border-top: 1px solid #2f2fa3;
   padding: 30px 0;
 }
 
 .footer-bottom h5 {
   font-size: 12px;
   line-height: 1;
-  color: #888888;
+  color: whitesmoke;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1767,7 +1767,7 @@ a:focus, a:hover {
 .footer-bottom h6 {
   font-size: 11px;
   line-height: 15px;
-  color: #888888;
+  color: whitesmoke;
   font-weight: 400;
   text-transform: capitalize;
   letter-spacing: 2px;

@@ -111,11 +111,10 @@ home = "EN Home"
 logo = "images/logo.png"
 menufixed = false
 
-footerDescription = "Integer posuere erat a ante venenati dapibus posuere velit aliquet. Fusce dapibus, tellus cursus commodo, tortor mauris sed posuere."
-footerServiceTitle = "Service"
-footerQuicklinkTitle = "Quicklinks"
-footerAboutTitle = "About"
-footerSubscribeTitle = "Subscribe"
+footerDescription = "LanguageShop offre servizi di traduzioni, traduzioni giurate, interpretariato su decine di lingue diverse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum."
+footerServiceTitle = "Servizi"
+footerQuicklinkTitle = "Contattaci"
+footerAboutTitle = "Chi siamo"
 
 # Hero Area Section
 [Languages.en.params.hero]
