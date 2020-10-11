@@ -1,16 +1,16 @@
 enable : true
 item    :
   - quote       : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores, unde corpori labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?
+      Ci avvaliamo della preziosa collaborazione di languageshop da sempre, per la traduzione di siti web, cataloghi, brochure, manuali e qualsiasi genere di materiale. Puntuale, affidabile e a prezzi davvero competitivi.
     clientThumb : images/client-logo/clients-1.jpg
-    clientName  : Matt Cutts
-    clientDesignation: CEO , Company Name
+    clientName  : Alessio Papa
+    clientDesignation: http://www.trebitcomunicazione.it
 
   - quote       : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores, unde corpori labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?
+      Mi sono affidato a Languageshop.it per organizzare al meglio tutti i contenuti dei miei lavori. Siamo partiti dai testi istituzionali fino ad arrivare a schede tecniche complesse. Ringrazio tutto lo staff, nella promesso di tornare ad utilizzare presto questo servizio
     clientThumb : images/client-logo/clients-2.jpg
-    clientName  : Elon Mask
-    clientDesignation: CEO , Company Name
+    clientName  : Giulio Rafanelli
+    clientDesignation: Web master www.giuliorafanelli.it
 
   - quote       : >
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum. Eos earum, magni asperiores, unde corpori labore, enim, voluptatum officiis voluptates alias natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, quia?

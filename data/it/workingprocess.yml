@@ -1,28 +1,28 @@
 enable  : true
-topTitle: sHOW WE WORKS
-title   : sOur Work Process
-subtitle: sLorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+topTitle: Come lavoriamo
+title   : Puntualità e attenzione al cliente
+subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
 item    :
   - number  : 1
-    icon    : tf-ion-ios-briefcase-outline
-    title   : Project Analysis
+    icon    : tf-ion-ios-email-outline
+    title   : Inviaci il materiale da tradurre
     description : >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
 
   - number  : 2
     icon    : tf-ion-ios-alarm-outline
-    title   : Time Management
+    title   : Tempi di risposta rapidi
     description : >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
 
   - number  : 3
     icon    : tf-ion-ios-email-outline
-    title   : Mail Support
+    title   : Invio del materiale 
     description : >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
 
   - number  : 4
     icon    : tf-ion-ios-locked-outline
-    title   : Secure System
+    title   : Spedizione del materiale
     description : >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
