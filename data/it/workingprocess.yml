@@ -17,12 +17,12 @@ item    :
 
   - number  : 3
     icon    : tf-ion-ios-email-outline
-    title   : Invio del materiale 
+    title   : Traduzione dei testi 
     description : >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
 
   - number  : 4
     icon    : tf-ion-ios-locked-outline
-    title   : Spedizione del materiale
+    title   : Spedizione della traduzione
     description : >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.

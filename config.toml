@@ -94,7 +94,8 @@ enable  = true
 bg      = "images/call-to-action/call-to-action-bg-2.jpg"
 title   = "Let's Create Something Together"
 subtitle= "Proin gravida nibh vel velit auctor aliquet. Aenean sollicudin bibendum auctor, <br> nisi elit consequat ipsum, nesagittis sem nid elit. Duis sed odio sitain elit."
-btnText = "Nous contacter"
+btnText = "Contattaci"
+btnURL  = "http://localhost:1313/it/contact/" # TODO: change this in production.
 
 ############# 2 - Site en ENGLISH
 [Languages.en]

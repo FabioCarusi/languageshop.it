@@ -1,11 +1,11 @@
 enable  : true
 topTitle: Listino prezzi
 title   : LISTINO.
-subtitle : Prezzo per cartella commerciale, equivalente a 1500 battute, spazi inclusi
+subtitle : Costo a parola sorgente
 
 item  :
   - #name        : BASIC
-    price       : da €0,04
+    price       : A partire da €0,04
     description : Dall’italiano e viceversa
     featurelist :
       - item: INGLESE 
@@ -15,28 +15,29 @@ item  :
     btnURL      : https://themefisher.com
 
   - #name        : ADVANCE
-    price       : €15
+    price       : A partire da €0,07
     description : Dall’italiano e viceversa
     featurelist :
       - item: TEDESCO
       - item: PORTOGHESE
       - item: RUSSO
+      - item: RUMENO
     btnText     : Sign Up
     btnURL      : https://themefisher.com/
 
   - #name        : PROFESSIONAL
-    price       : €18
+    price       : A partire da €0,08
     description : Dall’italiano e viceversa
     featurelist :
       - item: UCRAINO - OLANDESE - DANESE
       - item: NORVEGESE - BULGARO - SERBO
       - item: CECO - SLOVACCO - POLACCO
-      - item: ALBANESE - RUMENO - GRECO
+      - item: ALBANESE - GRECO
     btnText     : Sign Up
     btnURL      : https://themefisher.com/
 
   - #name        : PROFESSIONAL
-    price       : €20
+    price       : A partire da €0,09
     description : Dall’italiano e viceversa
     featurelist :
       - item: ARABO 
