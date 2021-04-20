@@ -468,7 +468,8 @@ a:focus, a:hover {
 
 .navigation {
   transition: .3s all;
-  background: #2f2fa2;
+  background: #f7f7f7;
+  /* background: #2f2fa2; */
 }
 
 .top-bar {
@@ -487,7 +488,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li > a {
-  color:whitesmoke;
+  color:#232323;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -572,7 +573,7 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  padding: 15px 0;
+  padding: 15px 0 0 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -583,7 +584,8 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #242582;
+  /* background: #242582; */
+  background: #e5e5e5;
 }
 
 @media (max-width: 480px) {
@@ -1792,4 +1794,17 @@ a:focus, a:hover {
 
 .page-404 h1 {
   font-size: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  #carouselSlides {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+  .hero-area {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
 }

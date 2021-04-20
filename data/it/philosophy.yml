@@ -4,17 +4,17 @@ title     : Chi siamo
 subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
 tabItem   :
   - id        : philosophy
-    title     : Our Philosophy
-    heading   : We Create Designs and technology
+    title     : Chi Siamo
+    heading   : Chi siamo
     content   : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
+      Languageshop è la tua agenzia di traduzioni online: un team di professionisti in grado di offrirti un servizio di traduzione veloce, affidabile e dai costi contenuti nella lingua che desideri! Non lasciarti ingannare dalla grafica informale e vivace del nostro sito! Da quando abbiamo lanciato il nostro servizio di traduzioni online, nel gennaio del 2010, abbiamo portato a termine migliaia di progetti, collaborando con centinaia di prestigiose aziende radicate su tutto il territorio italiano e oltre! 
     image     : images/company/company-image.jpg
 
   - id        : mission
-    title     : Mission
-    heading   : Our Mission
+    title     : Team
+    heading   : Il nostro Team
     content   : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
+      Il nostro team è composto da traduttori professionisti madrelingua/bilingue con esperienza decennale nei più svariati settori di traduzione, in grado di soddisfare le richieste dei clienti più esigenti e di farlo in tempi brevissimi, con l’ausilio o meno dei più diffusi CAT tools (computer-assisted translation tools), a seconda delle tue esigenze.
     image     : images/company/company-image-2.jpg
 
   - id        : vision

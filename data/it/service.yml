@@ -1,6 +1,6 @@
 enable    : true
-topTitle  : A LIST OF SERVICES
-title     : Our Service.
+topTitle  : I nostri servizi
+title     : Servizi.
 subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
 item      :
   - icon  : tf-ion-ios-copy-outline

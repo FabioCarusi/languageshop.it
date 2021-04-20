@@ -8,9 +8,11 @@ item  :
     price       : A partire da €0,04
     description : Dall’italiano e viceversa
     featurelist :
-      - item: INGLESE 
+      - item:  
+      - item: INGLESE
       - item: FRANCESE
       - item: SPAGNOLO
+      - item:
     btnText     : Sign Up
     btnURL      : https://themefisher.com
 
@@ -40,8 +42,10 @@ item  :
     price       : A partire da €0,09
     description : Dall’italiano e viceversa
     featurelist :
+      - item:
       - item: ARABO 
       - item: CINESE
       - item: GIAPPONESE
+      - item:
     btnText     : Sign Up
     btnURL      : https://themefisher.com/

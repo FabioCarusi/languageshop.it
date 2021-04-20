@@ -59,6 +59,9 @@ button  = true
 btnText = "Leggi ancora"
 #btnURL  = "https://themefisher.com/"
 videoThumb = "images/slideOK.png"
+imageCarousel1 = "images/slideOK.jpg"
+imageCarousel2 = "images/slideOK2.jpg"
+imageCarousel3 = "images/slideOK3.jpg"
 #videoURL   = "https://www.youtube.com/embed/g3-VxLQO7do"
 
 
