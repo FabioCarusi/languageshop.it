@@ -31,14 +31,25 @@
         </div>
     </div>
     <div class="footer-bottom">
+        {{if eq .Site.Params.languageCode "it-it"}}
         <h5>Tutti i contenuti sono coperti da copyright - E' vietata la riproduzione</h5>
         <!--<h6>Contattaci <a href="mailto:info@languageshop.it">info@languageshop.it</a> +39 392 4521000 -->
         </h6>
-        <h6>P.IVA 01995470687 - <a href="stocazzo" target="_blank">Privacy</a> - <a href="suka"
+
+        <h6>P.IVA 01995470687 - <a href="http://localhost:1313/it/privacy/" target="_blank">Privacy</a> - <a href="suka"
                 target="_blank">Condizioni d'uso</a>
             <br>Template usato
             <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
         </h6>
+        {{end}}
+        {{if eq .Site.Params.languageCode "en-us"}}
+        <h5>Tutti i contenuti sono coperti da copyright - E' vietata la riproduzione</h5> <!--TODO: translate it-->
+        <h6>P.IVA 01995470687 - <a href="http://localhost:1313/en/privacy/" target="_blank">Privacy page</a> - <a href="suka"
+                target="_blank">Condition</a>
+            <br>Template
+            <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
+        </h6>
+        {{end}}
     </div>
 </footer>
 {{ "<!-- end footer -->" | safeHTML }}
