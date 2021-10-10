@@ -21,7 +21,7 @@ DefaultContentLanguage = "it"
 [params]
 logo = "images/logo.png"
 
-# Gestion des langues : IT / EN 
+# Languages managment settings: IT / EN 
 [[Params.listeLangues]]
 code = "it"
 [[Params.listeLangues]]
@@ -31,7 +31,7 @@ code = "en"
 author = "Themefisher"
 description = "This is meta description"
 
-# Gestion des langues : IT / EN 
+# Languages managment settings: IT / EN 
 [Languages]
 ############ 1 - Sito in ITALIANO
 [Languages.it]
