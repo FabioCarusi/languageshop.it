@@ -13,9 +13,8 @@ item  :
       - item: FRANCESE
       - item: SPAGNOLO
       - item:
-    btnText     : Sign Up
-    btnURL      : https://themefisher.com
-
+    btnText     : Listino prezzi
+    btnURL      : http://localhost:1313/it/pricing/
   - #name        : ADVANCE
     price       : A partire da €0,07
     description : Dall’italiano e viceversa
@@ -24,8 +23,8 @@ item  :
       - item: PORTOGHESE
       - item: RUSSO
       - item: RUMENO
-    btnText     : Sign Up
-    btnURL      : https://themefisher.com/
+    btnText     : Listino prezzi
+    btnURL      : http://localhost:1313/it/pricing/
 
   - #name        : PROFESSIONAL
     price       : A partire da €0,08
@@ -35,8 +34,8 @@ item  :
       - item: NORVEGESE - BULGARO - SERBO
       - item: CECO - SLOVACCO - POLACCO
       - item: ALBANESE - GRECO
-    btnText     : Sign Up
-    btnURL      : https://themefisher.com/
+    btnText     : Listino prezzi
+    btnURL      : http://localhost:1313/it/pricing/
 
   - #name        : PROFESSIONAL
     price       : A partire da €0,09
@@ -47,5 +46,5 @@ item  :
       - item: CINESE
       - item: GIAPPONESE
       - item:
-    btnText     : Sign Up
-    btnURL      : https://themefisher.com/
+    btnText     : Listino prezzi
+    btnURL      : http://localhost:1313/it/pricing/
