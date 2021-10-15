@@ -1810,3 +1810,22 @@ a:focus, a:hover {
     display: none;
   }
 }
+/*=================================================================
+  Flags section
+==================================================================*/
+.flags {
+  padding-top: 30px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  padding-bottom: 20px;
+  text-align: center;
+  /*background: #f9f9f9;*/
+}
+
+@media screen and (max-width: 600px){
+  #flags-area{
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
