@@ -7,7 +7,7 @@ body {
 
 p {
   font-family: "Titillium Web", sans-serif;
-  color: #9a9a9a;
+  color: #080808;
   font-size: 15px;
 }
 
@@ -797,7 +797,7 @@ a:focus, a:hover {
 }
 
 .call-to-action p {
-  color: #9a9a9a;
+  color: #080808;
 }
 
 .call-to-action .btn-main, .call-to-action .btn-main-sm {
@@ -820,7 +820,7 @@ a:focus, a:hover {
 }
 
 .call-to-action-2 p {
-  color: #9a9a9a;
+  color: #080808;
 }
 
 .call-to-action-2 .btn-main, .call-to-action-2 .btn-main-sm {
@@ -832,6 +832,7 @@ a:focus, a:hover {
   ==================================================================*/
 .contact-form {
   margin-bottom: 40px;
+  
 }
 
 @media (max-width: 768px) {
