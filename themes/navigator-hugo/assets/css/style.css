@@ -1830,3 +1830,13 @@ a:focus, a:hover {
     display: none;
   }
 }
+
+/*================================================================
+  Text decoration
+==================================================================*/
+.highlight {
+  font-weight: bold; 
+  background-color:#f64c72;
+  padding-right: 3px;
+  color: white;
+}

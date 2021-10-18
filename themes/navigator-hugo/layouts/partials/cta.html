@@ -1,15 +1,18 @@
 {{ if .Site.Params.cta.enable }}
 {{ "<!-- Start Call To Action -->" | safeHTML }}
-<section class="call-to-action section" style='background-image: url("{{ .Site.Params.cta.bg | absURL }}");'>
+<section class="call-to-action section" id="call-to-action" >
     <div class="container">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				{{ with .Site.Params.cta.title }}<h2>{{ . }}</h2>{{ end }}
+			<div class="col-md-12 title text-center">
+				{{ with .Site.Params.cta.title }}
+				<h2>{{ . }}</h2>
+				<span class="border"></span>
+				{{ end }}
                 {{ with .Site.Params.cta.subtitle }}<p>{{ . | safeHTML }}</p>{{ end }}
-				<div class="row">
+				<div class="row" style="padding-top:50px">
 					{{ "<!-- Contact Details -->" | safeHTML }}
-					<div class="col-12 col-md-6">
-						<div class="map">
+					<div class="col-12 col-md-6" id="flags-area">
+						<div class="map ">
 							<div id="map" data-lat="{{ .Site.Params.contact.mapLatitude }}" data-long="{{ .Site.Params.contact.mapLongitude }}" data-marker="{{ .Site.Params.contact.mapMarker | absURL }}"></div>
 						</div>
 					</div>
