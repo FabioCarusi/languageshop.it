@@ -4,25 +4,37 @@ title     : Servizi.
 subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
 item      :
   - icon  : tf-ion-ios-copy-outline
-    title : Branding
+    title : Legali
     list  :
-      - name : Brand Strategy
-      - name : Advertising / Campaigns
-      - name : Product Design
-      - name : Video / Photography
+      - name : Traduzioni legalizzate
+        url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
+      - name : Traduzioni asseverate
+        url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
+      - name : Traduzioni giurate
+        url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
+      - name : Traduzioni certificate
+        url  : http://192.168.1.102:1313/it/traduzioni_certificate/
 
   - icon  : tf-ion-ios-alarm-outline
-    title : Branding
+    title : Business
     list  :
-      - name : Web Design
-      - name : E- Commerce Site Design
-      - name : App Development
-      - name : Mobile UI Design
+      - name : Traduzione contratti
+        url  : 
+      - name : Traduzione sito web
+        url  : 
+      - name : Traduzione emal e corrispondeza
+        url  : 
+      - name : Traduzione bilanci
+        url  : 
 
   - icon  : tf-ion-ios-book-outline
-    title : IOS App Development
+    title : Personali
     list  :
-      - name : Game Development
-      - name : Game Design
-      - name : Social Media Marketing
-      - name : Mobile UI Design
+      - name : Traduzione cartelle cliniche
+        url  : 
+      - name : Traduzione CV
+        url  : 
+      - name : Traduzione certificati
+        url  : 
+      - name : Traduzione diplomi, tesi, lauree
+        url  : 

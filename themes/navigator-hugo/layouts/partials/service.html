@@ -15,13 +15,15 @@
             </div>
             <div class="row">
                 {{ range .item }}
-                <div class="col-md-4">
-                    <div class="block">
-                        {{ with .icon }}<i class="{{.}}"></i>{{ end }}
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="row-eq-height justify-content-center block">
+                        {{/*  {{ with .icon }}<i class="{{.}}"></i>{{ end }}  */}}
                         {{ with .title }}<h3>{{.}}</h3>{{ end }}
                         <ul>
                             {{ range .list }}
-                            <li>{{.name}}</li>
+                            <li>
+                                <a href="{{ .url }}" style="color: white;">{{.name}}</a>
+                            </li>
                             {{ end }}
                         </ul>
                     </div>
