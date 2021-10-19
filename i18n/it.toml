@@ -2,8 +2,8 @@
 other = "Chi siamo"
 [service]
 other = "Servizi"
-[portfolio]
-other = "Portfolio"
+[listino]
+other = "Listino"
 [blog]
 other = "Blog"
 [contact]

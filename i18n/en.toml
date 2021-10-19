@@ -2,8 +2,8 @@
 other = "About"
 [service]
 other = "Service"
-[portfolio]
-other = "Portfolio"
+[listino]
+other = "Pricing"
 [blog]
 other = "Blog"
 [contact]
