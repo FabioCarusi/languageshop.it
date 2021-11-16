@@ -18,33 +18,31 @@
 					</div>
 					{{ "<!-- Contact Form -->" | safeHTML }}
 					<div class="contact-form col-12 col-md-6 ">
-						<form id="contact-form" method="post" action="sendmail.php" role="form"> <!-- TODO: change with Google Form -->
+						{{/*  <form id="contact-form" method="post" action="sendmail.php" role="form">  */}} <!-- TODO: change with Google Form -->
+						<form id="contact-form">	
 							<div class="form-group">
-								<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
-							</div>
-		
-							<div class="form-group">
-								<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+								<input type="text" placeholder="Enter your name" class="form-control" name="name" id="name" required>
+								<small id="namecheck" style="color: red">Inserire il nome</small>
 							</div>
 		
 							<div class="form-group">
-								<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+								<input type="email" placeholder="Enter your email" class="form-control" name="email" id="email" required>
+								<small id="emailvalid" style="color: red" class="form-text text-muted invalid-feedback">La mail inserita non è valida</small>
 							</div>
 		
 							<div class="form-group">
-								<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+								<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject" required>
 							</div>
 		
-							<div id="mail-success" class="success">
-								Thank you. The Mailman is on His Way :)
+							<div class="form-group">
+								<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message" required></textarea>
+								<small id="textcheck" style="color: red">Inserisci un messaggio</small>
 							</div>
-		
-							<div id="mail-fail" class="error">
-								Sorry, don't know what happened. Try later :(
-							</div>
-		
+							<div class="form-group">  
+								<input type="file" class="file-select" accept="image/*"/></div>
 							<div id="cf-submit">
-								<input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">
+								{{/*  <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">    */}}
+								<button id="contact-submit" type="button">Submit</button>
 							</div>
 						</form>
 					</div>
@@ -115,5 +113,6 @@
 		</div>
 	</div>
 </section>
+
 {{ "<!-- Start Call To Action -->" | safeHTML }}
 {{ end }}
