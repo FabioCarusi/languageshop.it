@@ -7,7 +7,7 @@ body {
 
 p {
   font-family: "Titillium Web", sans-serif;
-  color: #9a9a9a;
+  color: #080808;
   font-size: 15px;
 }
 
@@ -49,7 +49,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .btn-main, .btn-main-sm {
@@ -117,7 +117,7 @@ a:focus, a:hover {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 80px 0; /* 100px */
 }
 
 @media (max-width: 480px) {
@@ -149,7 +149,7 @@ a:focus, a:hover {
 }
 
 #preloader {
-  background: #f0326b;
+  background: #F64C72;
   height: 100%;
   opacity: 1;
   filter: alpha(opacity=100);
@@ -400,7 +400,7 @@ a:focus, a:hover {
 }
 
 .header-bradcrumb a:hover {
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .slick-slide {
@@ -424,15 +424,15 @@ a:focus, a:hover {
 }
 
 .commonTab .nav-tabs .nav-item .nav-link.active {
-  border: 1px solid #f0326b;
-  background: #f0326b;
+  border: 1px solid #F64C72;
+  background: #F64C72;
   color: #fff;
 }
 
 .commonTab .nav-tabs .nav-item .nav-link:hover {
-  border: 1px solid #f0326b;
+  border: 1px solid #F64C72;
   border-radius: 0;
-  background: #f0326b;
+  background: #F64C72;
   color: #fff;
 }
 
@@ -446,8 +446,8 @@ a:focus, a:hover {
 }
 
 .single-page-header {
-  background: #1f2532;
-  padding: 50px 0;
+  background: #242582;
+  padding: 15px 0 0; /* Changed */
   text-align: center;
   color: #fff;
   position: relative;
@@ -463,12 +463,13 @@ a:focus, a:hover {
 }
 
 .single-page-header .breadcrumb li a {
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .navigation {
   transition: .3s all;
-  background: #1f2532;
+  background: #f7f7f7;
+  /* background: #2f2fa2; */
 }
 
 .top-bar {
@@ -487,7 +488,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li > a {
-  color: #707d8f;
+  color:#232323;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -508,7 +509,7 @@ a:focus, a:hover {
 
 .navigation .navbar-nav > li > a:hover, .navigation .navbar-nav > li > a:active, .navigation .navbar-nav > li > a:focus {
   background: none;
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .navigation .navbar-toggler {
@@ -534,7 +535,7 @@ a:focus, a:hover {
 
 .navigation .dropdown .dropdown-item:hover {
   background: transparent;
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .navigation .dropdown .dropdown-menu {
@@ -572,7 +573,7 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  padding: 150px 0;
+  padding: 15px 0 0 0;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -583,7 +584,8 @@ a:focus, a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #1f2532;
+  /* background: #242582; */
+  background: #e5e5e5;
 }
 
 @media (max-width: 480px) {
@@ -609,7 +611,7 @@ a:focus, a:hover {
 }
 
 .hero-area .block p {
-  color: #707d8f;
+  color: whitesmoke;
   margin-bottom: 20px;
 }
 
@@ -658,7 +660,7 @@ a:focus, a:hover {
   transition: transform 300ms ease;
   transition: transform 300ms ease, -webkit-transform 300ms ease;
   background: #fff;
-  color: #f0326b;
+  color: #F64C72;
   line-height: 80px;
   font-size: 30px;
   margin-left: 5px;
@@ -730,7 +732,7 @@ a:focus, a:hover {
 
 .about h4 {
   font-size: 14px;
-  color: #f0326b;
+  color: #F64C72;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -785,8 +787,9 @@ a:focus, a:hover {
 ==================================================================*/
 .call-to-action {
   padding: 100px 0;
-  background-size: cover;
-  color: #fff;
+  /* background-size: cover; */
+  background-color: #f9f9f9;
+  color: black;
 }
 
 .call-to-action h2 {
@@ -794,7 +797,7 @@ a:focus, a:hover {
 }
 
 .call-to-action p {
-  color: #fff;
+  color: #080808;
 }
 
 .call-to-action .btn-main, .call-to-action .btn-main-sm {
@@ -806,9 +809,10 @@ a:focus, a:hover {
 ==================================================================*/
 .call-to-action-2 {
   padding: 100px 0;
-  background-image: url("../images/call-to-action/call-to-action-bg.jpg");
+  /*background-image: url("../images/call-to-action/call-to-action-bg.jpg");*/
+  background-color: #f9f9f9;
   background-size: cover;
-  color: #fff;
+  color: black;
 }
 
 .call-to-action-2 h2 {
@@ -816,7 +820,7 @@ a:focus, a:hover {
 }
 
 .call-to-action-2 p {
-  color: #fff;
+  color: #080808;
 }
 
 .call-to-action-2 .btn-main, .call-to-action-2 .btn-main-sm {
@@ -828,6 +832,7 @@ a:focus, a:hover {
   ==================================================================*/
 .contact-form {
   margin-bottom: 40px;
+  
 }
 
 @media (max-width: 768px) {
@@ -851,7 +856,7 @@ a:focus, a:hover {
 .contact-form input:hover,
 .contact-form textarea:hover,
 .contact-form #contact-submit:hover {
-  border-color: #f0326b;
+  border-color: #F64C72;
 }
 
 .contact-form #contact-submit {
@@ -859,7 +864,7 @@ a:focus, a:hover {
   padding: 15px 0;
   width: 100%;
   margin: 0;
-  background: #f0326b;
+  background: #F64C72;
   color: #fff;
   border-radius: 0;
   cursor: pointer;
@@ -889,12 +894,12 @@ a:focus, a:hover {
   height: 30px;
   width: 30px;
   text-align: center;
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .social-icon li a i {
   display: inline-block;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 50px;
   margin: 0;
 }
@@ -980,7 +985,7 @@ a:focus, a:hover {
 .counters-item i {
   font-size: 40px;
   display: inline-block;
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .counters-item h3 {
@@ -1074,12 +1079,12 @@ a:focus, a:hover {
 }
 
 .portfolio-filter button:hover {
-  border-bottom: 2px solid #f0326b;
+  border-bottom: 2px solid #F64C72;
   color: #000;
 }
 
 .portfolio-filter button.active {
-  border-bottom: 2px solid #f0326b;
+  border-bottom: 2px solid #F64C72;
   color: #000;
 }
 
@@ -1146,7 +1151,7 @@ a:focus, a:hover {
 }
 
 .portfolio-block .caption .search-icon {
-  background: #f0326b;
+  background: #F64C72;
   color: #fff;
   display: inline-block;
   padding: 4px 13px;
@@ -1175,7 +1180,7 @@ a:focus, a:hover {
 
 .services .service-block i {
   font-size: 40px;
-  color: #f0326b;
+  color: #F64C72;
   background: linear-gradient(100deg, #f9643d, #fe2a77);
   background-clip: text;
   -webkit-background-clip: text;
@@ -1244,7 +1249,7 @@ a:focus, a:hover {
 }
 
 .service-list .block {
-  background: #f0326b;
+  background: #F64C72;
   color: #fff;
   padding: 30px;
 }
@@ -1268,7 +1273,7 @@ a:focus, a:hover {
 }
 .client-service-list li i{
   margin-right: 10px;
-  color: #f0326b;
+  color: #F64C72;
 }
 
 /*=================================================================
@@ -1291,7 +1296,7 @@ a:focus, a:hover {
 }
 
 .team-skills .progress-block .progress .progress-bar {
-  background: #f0326b;
+  background: #F64C72;
   box-shadow: none;
 }
 
@@ -1336,7 +1341,7 @@ a:focus, a:hover {
 }
 
 .development-steps .step-2 {
-  background-color: #f0326b;
+  background-color: #F64C72;
 }
 
 .development-steps .step-2 h4, .development-steps .step-2 p {
@@ -1412,7 +1417,7 @@ a:focus, a:hover {
 }
 
 .team-member .member-content ul li a i {
-  color: #f0326b;
+  color: #F64C72;
   background: linear-gradient(100deg, #f9643d, #fe2a77);
   background-clip: text;
   -webkit-background-clip: text;
@@ -1437,7 +1442,7 @@ a:focus, a:hover {
   Testimonial section
 ==================================================================*/
 .testimonial {
-  background: #f0326b;
+  background: #F64C72;
   position: relative;
 }
 
@@ -1582,7 +1587,7 @@ a:focus, a:hover {
 }
 
 .next-prev a:hover {
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .next-prev .prev-post i {
@@ -1605,7 +1610,7 @@ a:focus, a:hover {
 }
 
 .social-profile ul li a i:hover {
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .comments-section {
@@ -1653,7 +1658,7 @@ a:focus, a:hover {
 }
 
 .comment-wrap .media .media-heading a {
-  color: #f0326b;
+  color: #F64C72;
   font-size: 13px;
 }
 
@@ -1678,7 +1683,7 @@ a:focus, a:hover {
 
 .comment-reply-form input:focus, .comment-reply-form textarea:focus {
   box-shadow: none;
-  border: 1px solid #f0326b;
+  border: 1px solid #F64C72;
 }
 
 .comment-reply-form textarea, .comment-reply-form .btn-main, .comment-reply-form .btn-main-sm {
@@ -1699,7 +1704,7 @@ a:focus, a:hover {
   color: #cccccc;
 }
 .pagination li.active a{
-  color: #f0326b;
+  color: #F64C72;
   font-weight: 600;
 }
 
@@ -1707,15 +1712,15 @@ a:focus, a:hover {
   Footer section
 ==================================================================*/
 .top-footer {
-  background-color: #222222;
-  border-top: 1px solid #404040;
+  background-color: #242582;
+  border-top: 1px solid #242584;
   padding: 100px 0 80px;
 }
 
 .top-footer h3 {
   font-size: 16px;
   line-height: 1.5;
-  color: #fff;
+  color: whitesmoke;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1725,7 +1730,7 @@ a:focus, a:hover {
 .top-footer p {
   font-size: 13px;
   line-height: 30px;
-  color: #bdbdbd;
+  color: white;
   font-weight: 300;
   padding-right: 20px;
 }
@@ -1733,7 +1738,7 @@ a:focus, a:hover {
 .top-footer li a {
   font-size: 13px;
   line-height: 30px;
-  color: #bdbdbd;
+  color: white;
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: capitalize;
@@ -1743,20 +1748,20 @@ a:focus, a:hover {
 }
 
 .top-footer li a:hover {
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .footer-bottom {
   text-align: center;
-  background-color: #1b1b1b;
-  border-top: 1px solid #2c2c2c;
+  background-color: #2f2fa2;
+  border-top: 1px solid #2f2fa3;
   padding: 30px 0;
 }
 
 .footer-bottom h5 {
   font-size: 12px;
   line-height: 1;
-  color: #888888;
+  color: whitesmoke;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1767,7 +1772,7 @@ a:focus, a:hover {
 .footer-bottom h6 {
   font-size: 11px;
   line-height: 15px;
-  color: #888888;
+  color: whitesmoke;
   font-weight: 400;
   text-transform: capitalize;
   letter-spacing: 2px;
@@ -1779,7 +1784,7 @@ a:focus, a:hover {
 }
 
 .footer-bottom a {
-  color: #f0326b;
+  color: #F64C72;
 }
 
 .subscribe-form .form-control {
@@ -1792,4 +1797,46 @@ a:focus, a:hover {
 
 .page-404 h1 {
   font-size: 200px;
+}
+
+@media screen and (max-width: 600px) {
+  #carouselSlides {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+  .hero-area {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+/*=================================================================
+  Flags section
+==================================================================*/
+.flags {
+  padding-top: 30px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  padding-bottom: 20px;
+  text-align: center;
+  /*background: #f9f9f9;*/
+}
+
+@media screen and (max-width: 600px){
+  #flags-area{
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
+/*================================================================
+  Text decoration
+==================================================================*/
+.highlight {
+  font-weight: bold; 
+  background-color:#f64c72;
+  padding-right: 3px;
+  color: white;
 }

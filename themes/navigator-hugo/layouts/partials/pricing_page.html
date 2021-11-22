@@ -1,0 +1,44 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.pricing }}
+    {{ if .enable }}
+    {{ "<!-- Start Pricing section -->" | safeHTML }}
+    <section class="pricing-table section" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="title text-center">
+                        {{ with .topTitle }}<h4>{{.}}</h4>{{ end }}
+                        {{ with .title }}
+                        <h2>{{.}}</h2>
+                        <span class="border"></span>
+                        {{ end }}
+                        {{/*  {{ with .subtitle }}<p>{{.}}</p>{{ end }}  */}}
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id metus lectus. Sed luctus elit
+                    ut mauris semper pellentesque. Sed sollicitudin, massa finibus placerat condimentum, urna arcu
+                    accumsan est, laoreet tempus urna ipsum et velit. Fusce in tempus ipsum. Sed fermentum aliquet
+                    nulla ornare finibus. Morbi in ante facilisis, vestibulum odio id, porta ipsum. Vivamus est
+                    dolor, interdum sit amet lacus commodo, vehicula varius mi. In porttitor magna a nulla ultricies
+                    lacinia. Vivamus lobortis urna orci, vulputate faucibus lacus luctus id. Ut vulputate metus
+                    nisl, non consequat purus aliquam non. Fusce laoreet consequat velit quis efficitur. Fusce id
+                    est in turpis imperdiet cursus a ut risus.</p>
+
+                <p>Nunc interdum luctus ipsum in bibendum. Integer congue bibendum libero, nec efficitur lorem
+                    finibus a. Suspendisse vitae orci gravida, vulputate ante id, suscipit nulla. Integer iaculis,
+                    massa sed lobortis porttitor, risus tortor ullamcorper ante, quis feugiat nunc dui eu erat. Cras
+                    eu vestibulum dolor, id maximus nisi. Aliquam non augue sit amet massa imperdiet congue in ac
+                    lorem. Sed venenatis porttitor scelerisque. Donec quis dui vulputate, iaculis nunc eu, accumsan
+                    dolor. Aliquam euismod fringilla elit. Suspendisse a nunc arcu. Aenean varius ipsum non neque
+                    convallis, eget placerat sapien fringilla. Aenean in orci at enim imperdiet molestie. Nullam
+                    faucibus placerat elit sit amet aliquam. Cras placerat eros sed felis dictum, non rutrum libero
+                    pellentesque. Nunc non egestas diam. Phasellus sit amet fringilla nisl.</p>
+            </div>
+        </div>
+        <!-- end container -->
+    </section>
+    {{ "<!-- End section -->" | safeHTML }}
+    {{ end }}
+{{ end }}

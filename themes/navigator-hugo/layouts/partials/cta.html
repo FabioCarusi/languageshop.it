@@ -1,15 +1,122 @@
 {{ if .Site.Params.cta.enable }}
 {{ "<!-- Start Call To Action -->" | safeHTML }}
-<section class="call-to-action section" style='background-image: url("{{ .Site.Params.cta.bg | absURL }}");'>
+<section class="call-to-action section" id="call-to-action" >
     <div class="container">
 		<div class="row">
-			<div class="col-md-12 text-center">
-				{{ with .Site.Params.cta.title }}<h2>{{ . }}</h2>{{ end }}
+			<div class="col-md-12 title text-center">
+				{{ with .Site.Params.cta.title }}
+				<h2>{{ . }}</h2>
+				<span class="border"></span>
+				{{ end }}
                 {{ with .Site.Params.cta.subtitle }}<p>{{ . | safeHTML }}</p>{{ end }}
-				{{ with .Site.Params.cta.btnText }}<a href="{{ "contact" | absURL }}" class="btn btn-main">{{ . }}</a>{{ end }}
+				<div class="row" style="padding-top:50px">
+					{{ "<!-- Contact Details -->" | safeHTML }}
+					<div class="col-12 col-md-6" id="flags-area">
+						<div class="map ">
+							<div id="map" data-lat="{{ .Site.Params.contact.mapLatitude }}" data-long="{{ .Site.Params.contact.mapLongitude }}" data-marker="{{ .Site.Params.contact.mapMarker | absURL }}"></div>
+						</div>
+					</div>
+					{{ "<!-- Contact Form -->" | safeHTML }}
+					<div class="contact-form col-12 col-md-6 ">
+						{{/*  <form id="contact-form">	  */}}
+						<form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
+							<input type="hidden" name="form-name" value="contact" />
+							<div class="form-group">
+								<input type="text" placeholder="Enter your name" class="form-control" name="name" id="name" required>
+								<small id="namecheck" style="color: red">Inserire il nome</small>
+							</div>
+		
+							<div class="form-group">
+								<input type="email" placeholder="Enter your email" class="form-control" name="email" id="email" required>
+								<small id="emailvalid" style="color: red" class="form-text text-muted invalid-feedback">La mail inserita non è valida</small>
+							</div>
+		
+							<div class="form-group">
+								<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject" required>
+							</div>
+		
+							<div class="form-group">
+								<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message" required></textarea>
+								<small id="textcheck" style="color: red">Inserisci un messaggio</small>
+							</div>
+{{/*  							<div class="d-flex justify-content-left align-items-left">
+								<button class="upload-button d-flex flex-row align-items-left">
+									<div class="upload-text"> <span>Upload</span> </div>
+								</button>
+							</div>  */}}
+							<div id="cf-submit">
+								{{/*  <input type="submit" id="contact-submit" class="btn btn-transparent" value="Submit">    */}}
+								<button id="contact-submit" type="button">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div id = 'cta' class="address-block contact-meta-block">
+							<i class="tf-ion-android-pin"></i>
+							<h4>Our Location</h4>
+							{{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div id = 'cta' class="phone-block contact-meta-block">
+							<i class="tf-ion-ios-telephone"></i>
+							<h4>Call Us</h4>
+							<p>
+								 {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
+								<br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
+							</p>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div id = 'cta' class="social-icons-block contact-meta-block">
+							<i class="tf-ion-ios-contact"></i>
+							<h4>Seguici su Facebook</h4>
+							<ul class="list-inline social-icon">
+								{{ with .Site.Params.contact.facebook }}
+								<li class="list-inline-item">
+									<a href="{{.}}">
+										<i class="tf-ion-social-facebook"></i>
+									</a>
+								</li>
+								{{ end }}
+								{{ with .Site.Params.contact.twitter }}
+								<li class="list-inline-item">
+									<a href="{{.}}">
+										<i class="tf-ion-social-twitter"></i>
+									</a>
+								</li>
+								{{ end }}
+								{{ with .Site.Params.contact.linkedin }}
+								<li class="list-inline-item">
+									<a href="{{.}}">
+										<i class="tf-ion-social-linkedin"></i>
+									</a>
+								</li>
+								{{ end }}
+								{{ with .Site.Params.contact.dribbble }}
+								<li class="list-inline-item">
+									<a href="{{.}}">
+										<i class="tf-ion-social-dribbble"></i>
+									</a>
+								</li>
+								{{ end }}
+								{{ with .Site.Params.contact.instagram }}
+								<li class="list-inline-item">
+									<a href="{{.}}">
+										<i class="tf-ion-social-instagram"></i>
+									</a>
+								</li>
+								{{ end }}
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
 {{ "<!-- Start Call To Action -->" | safeHTML }}
 {{ end }}

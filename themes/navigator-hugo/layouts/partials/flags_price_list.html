@@ -1,0 +1,63 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.flags }}
+    {{ if .enable }}
+    {{ "<!-- Start flags section -->" | safeHTML }}
+    <section class="flags" id="flags-area">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="title text-center">
+                        {{ with .title }}
+                        <h3>{{ . }}</h3>
+                        <span class="border"></span>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="title text-center">
+                <div class="row justify-content-center">
+                    {{ range .flags_1 }}
+                    {{ "<!-- flags -->" | safeHTML }}
+                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+                        <img class="img-fluid" src="{{ .image | absURL }}" alt="{{.text}}">
+                        {{with .text}}<h6>{{.}}</h6> {{ end }}
+                    </div>
+                    {{"<!-- end flags section -->" | safeHTML}}
+                    {{ end }}
+                </div>
+                {{/*  <div class="row justify-content-center">
+                    {{ range .flags_2 }}
+                    {{ "<!-- flags -->" | safeHTML }}
+                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+                        <img class="img-fluid" src="{{ .image | absURL }}" alt="{{.text}}">
+                        {{with .text}}<p>{{.}}</p> {{ end }}
+                    </div>
+                    {{"<!-- end flags section -->" | safeHTML}}
+                    {{ end }}
+                </div>
+                <div class="row justify-content-center">
+                    {{ range .flags_3 }}
+                    {{ "<!-- flags -->" | safeHTML }}
+                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+                        <img class="img-fluid" src="{{ .image | absURL }}" alt="{{.text}}">
+                        {{with .text}}<p>{{.}}</p> {{ end }}
+                    </div>
+                    {{"<!-- end flags section -->" | safeHTML}}
+                    {{ end }}
+                </div>
+                <div class="row justify-content-center">
+                    {{ range .flags_4 }}
+                    {{ "<!-- flags -->" | safeHTML }}
+                    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-2">
+                        <img class="img-fluid" src="{{ .image | absURL }}" alt="{{.text}}">
+                        {{with .text}}<p>{{.}}</p> {{ end }}
+                    </div>
+                    {{"<!-- end flags section -->" | safeHTML}}
+                    {{ end }}
+                </div>  */}}
+            </div>
+        </div>
+    </section>
+    {{"<!-- End flags section -->" | safeHTML }}
+    {{ end }}
+{{ end }}

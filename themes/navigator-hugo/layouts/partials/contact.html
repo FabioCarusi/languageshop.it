@@ -16,13 +16,13 @@
         </div>
         <div class="row">
             {{ "<!-- Contact Details -->" | safeHTML }}
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" id="flags-area">
                 <div class="map">
                     <div id="map" data-lat="{{ .Site.Params.contact.mapLatitude }}" data-long="{{ .Site.Params.contact.mapLongitude }}" data-marker="{{ .Site.Params.contact.mapMarker | absURL }}"></div>
                 </div>
             </div>
             {{ "<!-- Contact Form -->" | safeHTML }}
-            <div class="contact-form col-12 col-md-6 ">
+            <div class="contact-form col-12 col-md-6 "> <!--TODO: change with Google form -->
                 <form id="contact-form" method="post" action="sendmail.php" role="form">
                     <div class="form-group">
                         <input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
@@ -66,8 +66,9 @@
                 <div class="phone-block contact-meta-block">
                     <i class="tf-ion-ios-telephone"></i>
                     <h4>Call Us</h4>
-                    <p>
-                         {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
+                    <p style="unicode-bidi: bidi-override; direction: rtl">
+                         {{ with .Site.Params.contact.phone }} {{.}}:eciffO
+                         {{ end }} 
                         <br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
                     </p>
                 </div>
@@ -75,7 +76,7 @@
             <div class="col-12 col-md-4">
                 <div class="social-icons-block contact-meta-block">
                     <i class="tf-ion-ios-contact"></i>
-                    <h4>We are social</h4>
+                    <h4>Seguici su Facebook</h4>
                     <ul class="list-inline social-icon">
                         {{ with .Site.Params.contact.facebook }}
                         <li class="list-inline-item">

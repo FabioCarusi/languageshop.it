@@ -1,0 +1,24 @@
+[about]
+other = "Chi siamo"
+[service]
+other = "Servizi"
+[listino]
+other = "Listino"
+[blog]
+other = "Blog"
+[contact]
+other = "Contatti"
+
+[graphicdesign]
+other = "Graphic Design"
+[webdesign]
+other = "Web Design"
+[webdevelopment]
+other = "Web Development"
+
+[partners]
+other = "Partners"
+[faqs]
+other = "FAQ's"
+[badges]
+other = "Badges"

@@ -1,0 +1,71 @@
+enable: true
+topTitle:
+title: Costo a parola sorgente
+subtitle:
+
+flags_1:
+  - image: images/flags/uk_icon.png
+    text: Inglese €0,04
+
+  - image: images/flags/france_icon.png
+    text: Francese €0,04
+
+  - image: images/flags/spain_icon.png
+    text: Spagnolo €0,04
+
+#flags_2:
+  - image: images/flags/germany_icon.png
+    text: Tedesco €0,07
+
+  - image: images/flags/portugal_icon.png
+    text: Portoghese €0,07
+
+  - image: images/flags/russia_icon.png
+    text: Russo €0,07
+
+  - image: images/flags/romania_icon.png
+    text: Rumeno €0,07
+
+#flags_3:
+  - image: images/flags/ukraine_icon.png
+    text: Ucraino €0,08
+
+  - image: images/flags/netherlands_icon.png
+    text: Olandese €0,08
+
+  - image: images/flags/denmark_icon.png
+    text: Danese €0,08
+
+  - image: images/flags/norway_icon.png
+    text: Norvegese €0,08
+
+  - image: images/flags/bulgaria_icon.png
+    text: Bulgaro €0,08
+
+  - image: images/flags/serbia_icon.png
+    text: Serbo €0,08
+
+  - image: images/flags/czech_republic_icon.png
+    text: Ceco €0,08
+
+  - image: images/flags/slovakia_icon.png
+    text: Slovacco €0,08
+
+  - image: images/flags/poland_icon.png
+    text: Polacco €0,08
+
+  - image: images/flags/albania_icon.png
+    text: Albanese €0,08
+
+  - image: images/flags/grecee_icon.png
+    text: Greco €0,08
+
+#flags_4:
+  - image: images/flags/arabia_saudi_icon.png
+    text: Arabo €0,09
+  
+  - image: images/flags/china_icon.png
+    text: Cinese €0,09
+
+  - image: images/flags/japan_icon.png
+    text: Giapponese €0,09

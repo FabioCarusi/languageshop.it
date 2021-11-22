@@ -1,0 +1,28 @@
+enable  : true
+topTitle: Come lavoriamo
+title   : Puntualità e attenzione al cliente
+subtitle: Con languageshop le tue traduzioni sono in buone mani, perché lavoriamo rispettando le tue esigenze e scadenze. Contattaci per saperne di più!
+item    :
+  - number  : 1
+    icon    : tf-ion-ios-email-outline
+    title   : Inviaci il materiale da tradurre
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+
+  - number  : 2
+    icon    : tf-ion-ios-alarm-outline
+    title   : Tempi di risposta rapidi
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+
+  - number  : 3
+    icon    : tf-ion-ios-email-outline
+    title   : Traduzione dei testi 
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+
+  - number  : 4
+    icon    : tf-ion-ios-locked-outline
+    title   : Spedizione della traduzione
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
