@@ -126,7 +126,7 @@ $(window).on("load", function () {
 	/* ========================================================================= */
 
 
-	$('#contact-form').ready(function () {
+	$('#contact').ready(function () {
 
 
 		//validate name
@@ -197,123 +197,6 @@ $(window).on("load", function () {
 		}
 	})
 
-
-	/*
-		$('#contact-submit').click(function (e) {
-	
-			const firebaseConfig = {
-				apiKey: "AIzaSyA6cgemqckNsnfuCqZ1XY22AaLStTuS7rU",
-				authDomain: "language-shop-25351.firebaseapp.com",
-				projectId: "language-shop-25351",
-				storageBucket: "language-shop-25351.appspot.com",
-				messagingSenderId: "232480020898",
-				appId: "1:232480020898:web:7644b0d8fe7e749b953afb",
-				measurementId: "G-FSZ5GF166X"
-			};
-	
-			var push_to_firebase = function (data) {
-				const app = firebase.initializeApp(firebaseConfig);
-				//const analytics = getAnalytics(app);
-	
-				//alert("Thanks for sending a message. I'll try and get back to you as soon as possible.")
-				var db = firebase.firestore();
-	
-				db.collection("messages").add({
-					name: data["name"],
-					email: data["email"],
-					subject: data["sbj"],
-					message: data["msg"],
-					timestamp: Date.now()
-				})
-					.then(function (docRef) {
-						console.log("Message sent, ID: ", docRef.id);
-					})
-					.catch(function (err) {
-						console.error("Message could not sent: ", error);
-						alert("Sorry, don't know what happened. Try later :(")
-	
-					});
-			}
-	
-			var contact_submit = function () {
-				var name = document.getElementById("name");
-				var email = document.getElementById("email");
-				var sbj = document.getElementById("subject")
-				var msg = document.getElementById("message");
-	
-				var data = {
-					"name": name.value,
-					"email": email.value,
-					"sbj": sbj.value,
-					"msg": msg.value
-				}
-				console.log(data);
-				push_to_firebase(data);
-			}
-	
-			if ((emailError == false) && (nameError == false) && (messageError == false)) {
-				contact_submit();
-			}
-	
-		})
-	 */
-	/* $('#contact-submit').click(function (e) {
-
-		//stop the form from being submitted
-		//e.preventDefault();
-
-
-		var error = false;
-		var name = $('#name').val();
-		var email = $('#email').val();
-		var subject = $('#subject').val();
-		var message = $('#message').val();
-
-		if (name.length == 0) {
-			
-			$('#name').css("border-color", "#D8000C");
-		} else {
-			$('#name').css("border-color", "#666");
-		}
-		if (email.length == 0 || email.indexOf('@') == '-1') {
-			
-			$('#email').css("border-color", "#D8000C");
-		} else {
-			$('#email').css("border-color", "#666");
-		}
-
-		let regex = /^([_\-\.0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z]+)\.([a-zA-Z]){2,7}$/;
-		let s = email.value;
-
-		if (regex.test(s)) {
-			$('#emailvalid').hide();
-			emailError = false;
-		}
-		else {
-			$('#emailvalid').show();
-			emailError = true;
-		}
-
-		if (subject.length == 0) {
-			
-			$('#subject').css("border-color", "#D8000C");
-		} else {
-			$('#subject').css("border-color", "#666");
-		}
-		
-		if (message.length == 0) {
-			
-			$('#message').css("border-color", "#D8000C");
-		} else {
-			$('#message').css("border-color", "#666");
-		}
-
-		if ((nameError == false) && (emailError == false) && (messageError == false)) {
-			console.log(nameError, emailError, messageError);
-			push_to_firebase(data);
-		}
-		
-	}); */
 
 })(jQuery);
 
