@@ -140,7 +140,7 @@ $(window).on("load", function () {
 			let nameValue = $('#name').val();
 			if (nameValue.length == '') {
 				$('#namecheck').show();
-				nameError = true;
+				var nameError = true;
 
 				return false;
 			}
@@ -162,7 +162,7 @@ $(window).on("load", function () {
 			let messageValue = $('#message').val();
 			if (messageValue.length == '') {
 				$('#textcheck').show();
-				messageError = true;
+				var messageError = true;
 
 				return false
 			}
@@ -185,7 +185,7 @@ $(window).on("load", function () {
 			let s = email.value;
 			if (regex.test(s)) {
 				$('#emailvalid').hide();
-				emailError = false;
+				var emailError = false;
 
 			}
 			else {
