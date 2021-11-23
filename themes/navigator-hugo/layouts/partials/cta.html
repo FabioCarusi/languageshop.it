@@ -18,7 +18,7 @@
 					</div>
 					{{ "<!-- Contact Form -->" | safeHTML }}
 					<div class="contact-form col-12 col-md-6 ">
-						<form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
+						<form name="contact" method="POST" data-netlify="true">
 							<div class="form-group">
 								<input type="text" placeholder="Enter your name" class="form-control" name="name" id="name" required>
 								<small id="namecheck" style="color: red">Inserire il nome</small>
@@ -34,13 +34,15 @@
 								<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message" required></textarea>
 								<small id="textcheck" style="color: red">Inserisci un messaggio</small>
 							</div>
-								<div id="cf-submit">
-									<input type="hidden" name="form-name" value="contact">
-									<button id="contact-submit" type="button">Submit</button>
-								</div>
+							<div id="cf-submit">
+								<input type="hidden" name="form-name" value="contact">
+								<button  id="contact-submit" type="submit">Submit</button>
+							</div>
 						</form>
 						{{/*  <form name="contact" class="contact-form width-normal" action="/thank-you/" method="POST" data-netlify="true">
 							<input type="hidden" name="form-name" value="contact" />
+								<buttontype="button">Submit</button>
+							</div>
 						</form>  */}}
 					</div>
 				</div>
