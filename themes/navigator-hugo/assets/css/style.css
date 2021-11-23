@@ -1840,3 +1840,74 @@ a:focus, a:hover {
   padding-right: 3px;
   color: white;
 }
+
+/*================================================================
+  File upload
+==================================================================*/
+
+input[type=file]::-ms-browse {
+  border: 0px solid;
+  padding: .2em .4em;
+  background-color: #f64c72;
+  color: white;
+}
+
+input[type=file]::-webkit-file-upload-button {
+  border: 0px solid;
+  padding: .2em .4em;
+  background-color: #f64c72;
+  transition: 1s;
+  color: white;
+}
+
+input[type=file]::file-selector-button {
+  border: 0px solid;
+  padding: .2em .4em;;
+  background-color: #f64c72;
+  transition: 1s;
+  color: white;
+}
+
+input[type=file]::-ms-browse:hover {
+  background-color: #f81d4d;
+  color: white;
+}
+
+input[type=file]::-webkit-file-upload-button:hover {
+  background-color: #f81d4d;
+  color: white;
+}
+
+
+input[type=file]::file-selector-button:hover {
+  background-color: #f81d4d;
+}
+
+
+/* .file-upload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  background-color: #f64c72;
+  border: none;
+  border-radius: 0px;
+  color: #fff;
+}
+
+.file-upload:hover{
+  background-color: #f81d4d;
+}
+
+
+.file-upload input.upload {
+  position: absolute;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+} */

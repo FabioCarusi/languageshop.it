@@ -99,6 +99,16 @@ title   = "Contattaci"
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 btnText = "Contattaci"
 btnURL  = "contact/" # TODO: change this in production.
+formName = "Inserisci il nome"
+formNameError = "Inserisci il tuo nome"
+formEmail = "Inserisci la tua email"
+formEmailError = "La mail inserita non è valida"
+formSubject = "Oggetto"
+formMessage = "Messaggio"
+formMessageError = "Scrivi un messaggio"
+formUpload = "Aggiungi un file"
+formSubmit = "Invio"
+
 
 ############# 2 - Site en ENGLISH
 [Languages.en]
@@ -157,9 +167,18 @@ mapMarker   = "images/marker.png"
 [Languages.en.params.cta]
 enable  = true
 bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "Contattaci"
+title   = "Contact Us"
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-btnText = "Contattaci"
+btnText = "Contact Us"
+formName = "Please enter your name"
+formNameError = "Please enter your name"
+formEmail = "Please enter your email"
+formEmailError = "Please enter a valid email"
+formSubject = "Subject"
+formMessage = "Message"
+formMessageError = "Please enter your message"
+formUpload = "Upload file"
+formSubmit = "Submit"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
