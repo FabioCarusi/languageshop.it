@@ -4,13 +4,15 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>404</h1>
-        <h2>Page Not Found</h2>
-        <p>Sorry, but the page you were trying to view does not exist.</p>
-        <a href="{{ .Site.BaseURL }}" class="btn btn-main mt-20">Go Home</a>
+        <h1>{{.Site.Params.error.title}}</h1>
+        <h2>{{.Site.Params.error.subtitle}}</h2>
+        <p>{{.Site.Params.error.paragraph1}}</p>
+        <a href="{{ .Site.Params.error.link }}" class="btn btn-main">{{.Site.Params.error.button1}}</a>
+        <p>{{.Site.Params.error.paragraph2}}</p>
+        <a href="{{ .Site.BaseURL }}" class="btn btn-main">{{.Site.Params.error.button2}}</a>
       </div>
     </div>
   </div>
 </section>
-	
-{{ end }}
+  
+{{end}}

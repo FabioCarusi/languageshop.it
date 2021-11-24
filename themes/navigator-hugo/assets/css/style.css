@@ -1796,7 +1796,7 @@ a:focus, a:hover {
 }
 
 .page-404 h1 {
-  font-size: 200px;
+  font-size: 60px;
 }
 
 @media screen and (max-width: 600px) {
