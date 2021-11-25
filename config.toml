@@ -229,32 +229,32 @@ weight  = 6
 
 # Footer Service Menu
 [[menu.service]]
-name    = "graphicdesign"
-url     = "service"
+name    = "traduzionecurriculum"
+url     = "traduzione-curriculum"
 weight  = 1
 [[menu.service]]
-name    = "webdesign"
-url     = "service"
+name    = "traduzioniasseverate"
+url     = "traduzione-curriculum"
 weight  = 2
 [[menu.service]]
-name    = "webdevelopment"
-url     = "service"
+name    = "traduzionesitiweb"
+url     = "traduzione-siti-web"
 weight  = 3
 
 # Footer Quick links Menu
 [[menu.quicklink]]
-name    = "partners"
-url     = "about"
-weight  = 1
+name    = "contatti"
+url     = "contact"
+weight  = 2
 [[menu.quicklink]]
 name    = "about"
 url     = "about"
-weight  = 2
+weight  = 1
 [[menu.quicklink]]
-name    = "faqs"
-url     = "about"
-weight  = 3
-[[menu.quicklink]]
-name    = "badges"
-url     = "about"
+name    = "blog1"
+url     = "blog"
 weight  = 4
+[[menu.quicklink]]
+name    = "listino1"
+url     = "pricing"
+weight  = 3

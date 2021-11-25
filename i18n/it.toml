@@ -9,16 +9,16 @@ other = "Blog"
 [contact]
 other = "Contatti"
 
-[graphicdesign]
-other = "Graphic Design"
-[webdesign]
-other = "Web Design"
-[webdevelopment]
-other = "Web Development"
+[traduzionecurriculum]
+other = "Traduzione Curriculum"
+[traduzioniasseverate]
+other = "Traduzioni Asseverate"
+[traduzionesitiweb]
+other = "Traduzione Siti Web"
 
-[partners]
-other = "Partners"
-[faqs]
-other = "FAQ's"
-[badges]
-other = "Badges"
+[contatti]
+other = "Contattaci"
+[blog1]
+other = "Blog"
+[listino1]
+other = "Listino"
