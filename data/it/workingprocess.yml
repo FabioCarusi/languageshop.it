@@ -7,22 +7,22 @@ item    :
     icon    : tf-ion-ios-email-outline
     title   : Inviaci il materiale da tradurre
     description : >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+      Prediligiamo file in format Word o PDF, ma accettiamo anche altri formati.
 
   - number  : 2
     icon    : tf-ion-ios-alarm-outline
-    title   : Tempi di risposta rapidi
+    title   : Ricevi una risposta in tempi rapidi
     description : >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+      Una volta visionati i tuoi file, ti in poco tempo invieremo il preventivo.
 
   - number  : 3
     icon    : tf-ion-ios-email-outline
-    title   : Traduzione dei testi 
+    title   : Conferma la traduzione dei testi 
     description : >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+      Il lavoro verrà assegnata ad uno dei nostri esperti traduttori.
 
   - number  : 4
     icon    : tf-ion-ios-locked-outline
-    title   : Spedizione della traduzione
+    title   : Ricevi la traduzione
     description : >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+      Invieremo la tua traduzione per email o, se legalizzata, tramite corriere.

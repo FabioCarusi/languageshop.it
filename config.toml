@@ -82,7 +82,7 @@ subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reici
 [Languages.it.params.contact]
 enable  = true
 topTitle= "Mandatici una mail"
-title   = "Contattaci."
+title   = "Contattaci per un preventivo gratuito."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 address = "Pescara, Italia. Ma lavoriamo con tutto il mondo"
 phone   = "000125429393+" 
@@ -95,7 +95,7 @@ mapMarker   = "images/marker.png"
 [Languages.it.params.cta]
 enable  = true
 bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "Contattaci"
+title   = "Contattaci per un preventivo gratuito."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
 btnText = "Contattaci"
 btnURL  = "contact/" # TODO: change this in production.
@@ -239,6 +239,10 @@ weight  = 2
 [[menu.service]]
 name    = "traduzionesitiweb"
 url     = "traduzione-siti-web"
+weight  = 4
+[[menu.service]]
+name    = "traduzionigiurate"
+url     = "traduzione-giurata"
 weight  = 3
 
 # Footer Quick links Menu
