@@ -13,7 +13,7 @@ item    :
     icon    : tf-ion-ios-alarm-outline
     title   : Ricevi una risposta in tempi rapidi
     description : >
-      Una volta visionati i tuoi file, ti in poco tempo invieremo il preventivo.
+      Una volta visionati i tuoi file, ti invieremo in poco tempo il preventivo.
 
   - number  : 3
     icon    : tf-ion-ios-email-outline

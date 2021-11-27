@@ -38,7 +38,7 @@ description = "This is meta description"
 weight = 1
 languageCode = "it-it"
 title = "LanguageShop - Agenzia di traduzioni online."
-dateFormat = "2 Gennaio 2006"
+dateFormat = "2006-01-02"
 
 home = "Home"
 logo = "images/logo.png"
@@ -74,16 +74,18 @@ description = "Languageshop è un team di traduttori in grado di fornire traduzi
 # Blog Section On Homepage
 [Languages.it.params.blog]
 enable  = true
-topTitle= "OUR UNTOLD STORY"
-title   = "Blog."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+topTitle= "SCOPRI IL MONDO DELLE TRADUZIONI"
+title   = "Blog"
+subtitle= "Per saperne di più sui vari tipi di traduzioni e su come lavora Languageshop, dai un’occhiata al nostro Blog!"
+authorBlog = "Scritto da"
+onBlog = "il"
 
 # Contact Section
 [Languages.it.params.contact]
 enable  = true
 topTitle= "Mandatici una mail"
 title   = "Contattaci per un preventivo gratuito."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+subtitle= "Per conoscere il costo della tua traduzione, chiedici un preventive gratuito e senza impegno!"
 address = "Pescara, Italia. Ma lavoriamo con tutto il mondo"
 phone   = "000125429393+" 
 facebook= "https://www.facebook.com/languageshop.it"
@@ -160,6 +162,8 @@ enable  = true
 topTitle= "OUR UNTOLD STORY"
 title   = "Blog."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+authorBlog = "By"
+onBlog = "on"
 
 # Contact Section
 [Languages.en.params.contact]

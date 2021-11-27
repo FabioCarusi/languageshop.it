@@ -9,11 +9,11 @@
                 <div class="post-meta mb-5">
                     <ul class="list-inline">
                         <li class="list-inline-item">
-                            <span>By</span>
+                            <span>{{.Site.Params.blog.authorBlog}}</span>
                             {{ .Params.author }}
                         </li>
                         <li class="list-inline-item">
-                            <span>at</span>
+                            <span>{{.Site.Params.blog.onBlog}}</span>
                             <span>{{ .Date.Format .Site.Params.dateFormat }}</span>
                         </li>
                     </ul>
