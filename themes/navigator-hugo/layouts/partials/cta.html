@@ -69,16 +69,16 @@
 					<div class="col-12 col-md-4">
 						<div id = 'cta' class="address-block contact-meta-block">
 							<i class="tf-ion-android-pin"></i>
-							<h4>Our Location</h4>
+							<h4>Dove Siamo</h4>
 							{{ with .Site.Params.contact.address }}<p>{{ . | safeHTML }}</p>{{ end }}
 						</div>
 					</div>
 					<div class="col-12 col-md-4">
 						<div id = 'cta' class="phone-block contact-meta-block">
 							<i class="tf-ion-ios-telephone"></i>
-							<h4>Call Us</h4>
-							<p>
-								 {{ with .Site.Params.contact.phone }}Office: {{.}} {{ end }} 
+							<h4>Chiamaci</h4>
+							<p style="unicode-bidi: bidi-override; direction: rtl">
+								{{ with .Site.Params.contact.phone }} {{.}}:eciffO {{ end }} 
 								<br> {{ with .Site.Params.contact.fax }} Fax: {{ . }} {{ end }}
 							</p>
 						</div>
