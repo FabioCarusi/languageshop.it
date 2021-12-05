@@ -1,13 +1,13 @@
 enable    : true
-title     : We care about our work
+title     : Le tue traduzioni sono in buone mani!
 description: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorem, saepe ab, optio obcaecati id asperiores. Ab ullam qui architecto at eos distinctio debitis, libero reprehenderit excepturi rem ut odit est nam magni ratione necessitatibus, quod eaque, eius minima tempora deleniti illum aliquam! Perferendis optio dolorum blanditiis sapiente aperiam quaerat.
+  La gamma di servizi di traduzione offerti da Languageshop non conosce confini e la lista che trovi su questo sito non è da intendersi come esaustiva. Per questo, ti consigliamo di utilizzare il form per richiedere un preventivo gratuito e senza impegno per capire quali sono i costi della traduzione che ti interessa. Contatta Languageshop e scopri i vantaggi di un servizio di traduzione online:
 image     : images/about/about-1.jpg
 servicelist:
-  - name    : Creative Designers
-  - name    : Genius Developers
-  - name    : Growth Hackers
-  - name    : Marketing Masterminds
+  - name    : Tempi di risposta veloci
+  - name    : Tariffe contenute
+  - name    : Tempi di consegna ragionevoli
+  - name    : Traduzioni non effettuate da macchine
 clientLogo:
   - image   : images/client-logo/logo1.png
   - image   : images/client-logo/logo-2.png

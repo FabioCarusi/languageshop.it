@@ -44,7 +44,7 @@ home = "Home"
 logo = "images/logo.png"
 menufixed = false
 
-footerDescription = "LanguageShop offre servizi di traduzioni, traduzioni giurate, interpretariato su decine di lingue diverse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum.."
+footerDescription = "LanguageShop offre servizi di traduzione online: traduzioni asseverate, certificate, legali, mediche, traduzione siti web, traduzioni personali e molto altro!"
 footerServiceTitle = "Servizi"
 footerQuicklinkTitle = "Link"
 footerAboutTitle = "About"
@@ -238,15 +238,15 @@ url     = "traduzione-curriculum"
 weight  = 1
 [[menu.service]]
 name    = "traduzioniasseverate"
-url     = "traduzione-curriculum"
+url     = "traduzioni_asseverate"
 weight  = 2
 [[menu.service]]
 name    = "traduzionesitiweb"
 url     = "traduzione-siti-web"
 weight  = 4
 [[menu.service]]
-name    = "traduzionigiurate"
-url     = "traduzione-giurata"
+name    = "traduzionicertificate"
+url     = "traduzioni_certificate"
 weight  = 3
 
 # Footer Quick links Menu
