@@ -31,8 +31,9 @@ item  :
     description : Dall’italiano e viceversa
     featurelist :
       - item: UCRAINO - OLANDESE - BULGARO
-      - item: CECO - SLOVACCO - POLACCO
-      - item: ALBANESE - GRECO - SERBO
+      - item: CECO - SLOVACCO
+      - item: ALBANESE - POLACCO
+      - item: GRECO - SERBO
     btnText     : Listino prezzi
     btnURL      : pricing/
 
