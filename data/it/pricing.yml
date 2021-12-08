@@ -30,10 +30,9 @@ item  :
     price       : A partire da €0,08
     description : Dall’italiano e viceversa
     featurelist :
-      - item: UCRAINO - OLANDESE - DANESE
-      - item: NORVEGESE - BULGARO - SERBO
+      - item: UCRAINO - OLANDESE - BULGARO
       - item: CECO - SLOVACCO - POLACCO
-      - item: ALBANESE - GRECO
+      - item: ALBANESE - GRECO - SERBO
     btnText     : Listino prezzi
     btnURL      : pricing/
 
