@@ -15,7 +15,7 @@ Ecco come funziona nello specifico:
 - -le **traduzioni certificate** possono essere inviate via email o tramite corriere, a seconda delle esigenze;
 - -le **traduzioni legalizzate**, la cui copia originale è la sola ammissibile, possono essere anticipate via email dopo essere state scansionate, ma vanno poi spedite presso il proprio ufficio o domicilio tramite corriere o raccomandata.
 ## Scegliere un servizio di traduzione online: vantaggi
-Ci sono degli indubbi vantaggi nello scegliere un servizio o un’agenzia di **traduzioni online** e non un ufficio “fisico” nella tua città. Tra questi, vi sono:
+Ci sono degli indubbi vantaggi nello scegliere un servizio o un’agenzia di **traduzioni online** e non un ufficio *“fisico”* nella tua città. Tra questi, vi sono:
 - -La possibilità di ordinare e ricevere le traduzioni direttamente a casa, senza doverti recare fisicamente in agenzia;
 - -Un notevole risparmio economico, perché un’**agenzia di traduzioni online** non ha costi fissi di gestione da sostenere che, solitamente, vengono spalmati sui clienti. Ti basterà chiedere un preventivo anche altrove per renderti conto della differenza di prezzo;
 - -Accesso ad un portfolio di traduttori più ampio e vario, che ti permetterà di ricevere la tua traduzione in minor tempo senza rinunciare alla qualità.

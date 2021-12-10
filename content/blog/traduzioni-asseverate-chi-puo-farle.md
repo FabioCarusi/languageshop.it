@@ -6,8 +6,8 @@ description: "the meta description"
 image: "images/blog/post-1.jpg"
 ---
 ## Cosa sono le traduzioni asseverate?
-Le traduzioni asseverate, anche dette traduzioni legalizzate o traduzioni giurate, sono traduzioni “ufficiali” richieste in caso di procedure speciali. Ad esempio, le traduzioni di documenti per la richiesta di cittadinanza italiana devono essere asseverate per essere valide.
-Questo perché, in Italia, non esiste un albo dei traduttori e interpreti. Motivo per cui, il traduttore deve recarsi in tribunale, davanti all’ufficiale preposto, per giurare di “aver bene e fedelmente proceduto alle operazioni” di traduzione, non avendo “altro scopo che quello di far conoscere la verità”.
+Le [traduzioni asseverate]({{< ref "/traduzioni_asseverate" >}} "traduzioni asseverate"), anche dette traduzioni legalizzate o traduzioni giurate, sono traduzioni _“ufficiali”_ richieste in caso di procedure speciali. Ad esempio, le traduzioni di documenti per la richiesta di cittadinanza italiana devono essere asseverate per essere valide.
+Questo perché, in Italia, non esiste un albo dei traduttori e interpreti. Motivo per cui, il traduttore deve recarsi in tribunale, davanti all’ufficiale preposto, per giurare di _“aver bene e fedelmente proceduto alle operazioni”_ di traduzione, non avendo “altro scopo che quello di far conoscere la verità”.
 
 Si tratta di un vero e proprio giuramento quello prestato dal traduttore incaricato, il quale sarà soggetto a responsabilità penale in caso di dichiarazioni false.
 ## Traduzioni asseverate: chi può farle?
