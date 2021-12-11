@@ -84,8 +84,8 @@ onBlog = "il"
 [Languages.it.params.contact]
 enable  = true
 topTitle= "Mandatici una mail"
-title   = "Contattaci per un preventivo gratuito."
-subtitle= "Per conoscere il costo della tua traduzione, chiedici un preventive gratuito e senza impegno!"
+title   = "Contattaci per un preventivo gratuito"
+subtitle= "Per conoscere il costo della tua traduzione, chiedici un preventivo gratuito e senza impegno!"
 address = "Pescara, Italia. Ma lavoriamo con tutto il mondo"
 phone   = "000125429393+"
 fax = "ti.pohsegaugnal@ofni"
@@ -98,8 +98,8 @@ mapMarker   = "images/marker.png"
 [Languages.it.params.cta]
 enable  = true
 bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "Contattaci per un preventivo gratuito."
-subtitle= "Per conoscere il costo della tua traduzione, chiedici un preventive gratuito e senza impegno!"
+title   = "Contattaci per un preventivo gratuito"
+subtitle= "Per conoscere il costo della tua traduzione, chiedici un preventivo gratuito e senza impegno!"
 btnText = "Contattaci"
 btnURL  = "contact/" # TODO: change this in production.
 formName = "Inserisci il nome"

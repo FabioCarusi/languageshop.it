@@ -11,14 +11,16 @@ La maggior parte delle agenzie di traduzione offre tre tipologie di traduzione:
 - -**traduzione certificata**
 - -**traduzione asseverata**
 
+
 Una traduzione semplice è una traduzione che non necessita di alcun tipo di _“autenticazione”_ ed è praticamente pronta all’uso (manuali, cataloghi, siti web, cv e articoli scientifici rientrano in questa categoria).  
 
 Quando, invece, c’è bisogno di una traduzione ufficiale, le opzioni possibili sono due:
 - -**traduzione certificata**
 - -**traduzione asseverata o legalizzata**
 
+
 Spesso, le [traduzioni certificate]({{< ref "/traduzioni_certificate" >}} "traduzioni certificate") vengono confuse con le _traduzioni asseverate_ o legalizzate. Questo perché nei paesi anglofoni, ad esempio, una _“certified translation”_ indica semplicemente una traduzione autenticata, secondo le normative specifiche dei singoli paesi. Ma, in Italia, le traduzioni certificate sono molto diverse dalle traduzioni asseverate.
-Le **traduzioni certificate** sono traduzioni accompagnate da una semplice autocertificazione del traduttore. I questo caso, il cliente che ha richiesto la traduzione certificata riceverà un unico file in formato PDF così composto: testo originale, traduzione e certificato di accuratezza della traduzione firmato dal traduttore.
+Le **traduzioni certificate** sono traduzioni accompagnate da una semplice autocertificazione del traduttore. In questo caso, il cliente che ha richiesto la traduzione certificata riceverà un unico file in formato PDF così composto: testo originale, traduzione e certificato di accuratezza della traduzione firmato dal traduttore.
 
 ## Chi accetta le traduzioni certificate?
 Spesso, quando il cliente non sa se ha bisogno di una traduzione asseverata o certificata, chiede all’agenzia a cui si rivolge un consiglio su quale tipo di traduzione sia meglio effettuare.   

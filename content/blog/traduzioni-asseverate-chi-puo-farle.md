@@ -27,6 +27,7 @@ Il costo di una traduzione asseverata può variare notevolmente da agenzia a age
 I costi fissi da sostenere, invece, sono quelli relativi alle marche da bollo:
 * -1 marca da e 16 da apporre sul verbale di asseverazione
 * -1 marca da € 16 da appore su ogni 4 facciate di traduzione.
+
 Se hai bisogno di una traduzione asseverata, Languageshop offre le tariffe più convenienti che puoi trovare sul mercato. La traduzione ti verrà inviata tramite corriere o posta raccomandata ma, se lo desideri, potrai ricevere in anticipo una copia scansionata per email.
 
 [Contattaci](#call-to-action "Contattaci!") per avere maggiori informazioni su costi e tempistiche!
