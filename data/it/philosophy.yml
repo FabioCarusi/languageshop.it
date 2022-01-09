@@ -1,25 +1,25 @@
 enable    : true
-topTitle  : LITTLE MORE BRIEF
+topTitle  : 
 title     : Chi siamo
-subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+subtitle  : Traduttori professionisti con esperienza decennale nei più svariati settori, ma soprattutto persone che amano il proprio lavoro!
 tabItem   :
   - id        : philosophy
     title     : Chi Siamo
     heading   : Chi siamo
     content   : >
-      Languageshop è la tua agenzia di traduzioni online: un team di professionisti in grado di offrirti un servizio di traduzione veloce, affidabile e dai costi contenuti nella lingua che desideri! Non lasciarti ingannare dalla grafica informale e vivace del nostro sito! Da quando abbiamo lanciato il nostro servizio di traduzioni online, nel gennaio del 2010, abbiamo portato a termine migliaia di progetti, collaborando con centinaia di prestigiose aziende radicate su tutto il territorio italiano e oltre! 
+      Languageshop è un servizio di traduzioni online a pagamento offerto da un team di professionisti con esperienza nei più svariati settori di specializzazione. Non lasciarti ingannare dalla grafica informale e vivace del nostro sito! Da quando abbiamo lanciato il nostro servizio di traduzioni online, nel gennaio del 2010, abbiamo portato a termine migliaia di progetti, collaborando con centinaia di prestigiose aziende in Italia e nel mondo!
     image     : images/company/company-image.jpg
 
   - id        : mission
     title     : Team
     heading   : Il nostro Team
     content   : >
-      Il nostro team è composto da traduttori professionisti madrelingua/bilingue con esperienza decennale nei più svariati settori di traduzione, in grado di soddisfare le richieste dei clienti più esigenti e di farlo in tempi brevissimi, con l’ausilio o meno dei più diffusi CAT tools (computer-assisted translation tools), a seconda delle tue esigenze.
+      Siamo traduttori professionisti madrelingua/bilingue con esperienza decennale nei più svariati settori di specializzazione, ma soprattutto persone che amano il proprio lavoro e mettono al primo posto la tua soddisfazione. Siamo in grado di soddisfare le richieste dei clienti più esigenti e di farlo in tempi brevi, con l’ausilio o meno dei più diffusi CAT tools (computer-assisted translation tools), a seconda delle specifiche esigenze.
     image     : images/company/company-image-2.jpg
 
   - id        : vision
     title     : Vision
-    heading   : Our Vision
+    heading   : Vision
     content   : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate molestias, quaerat quo natus dolor harum voluptatibus modi dicta ducimus. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quae officia earum dolore est quaerat cupiditate voluptatibus id, magni alias veniam voluptate, libero explicabo, distinctio atque!
+      Abbiamo creduto nel lavoro da remoto quando ai più sembrava una follia! Lavorare da remoto ci permette di offrire traduzioni di qualità a costi più convenienti, perché non abbiamo costi di gestione fissi da sostenere! Dopo oltre dieci anni, continuiamo a credere in questo progetto grazie alla stima e al sostegno dei nostri numerosissimi clienti.
     image     : images/company/company-image-3.jpg

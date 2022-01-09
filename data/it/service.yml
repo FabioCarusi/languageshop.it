@@ -1,18 +1,18 @@
 enable    : true
 topTitle  : I nostri servizi
-title     : Servizi.
-subtitle  : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!
+title     : Servizi
+subtitle  : Noi di Languageshop ci occupiamo con passione delle vostre traduzioni da oltre 10 anni! In questa sezione troverai alcune delle tipologie di traduzione più richiesti, ma il nostro servizio di traduzioni non conosce limiti!
 item      :
   - icon  : tf-ion-ios-copy-outline
     title : Legali
     list  :
-      - name : Traduzioni legalizzate
-        url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
       - name : Traduzioni asseverate
         url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
-      - name : Traduzioni giurate
+      - name : Traduzioni assecertificateverate
         url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
-      - name : Traduzioni certificate
+      - name : Traduzioni atti
+        url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
+      - name : Traduzioni procure
         url  : http://192.168.1.102:1313/it/traduzioni_certificate/
 
   - icon  : tf-ion-ios-alarm-outline
@@ -22,7 +22,7 @@ item      :
         url  : 
       - name : Traduzione sito web
         url  : 
-      - name : Traduzione emal e corrispondeza
+      - name : Traduzione email e corrispondenza
         url  : 
       - name : Traduzione bilanci
         url  : 
@@ -36,5 +36,5 @@ item      :
         url  : 
       - name : Traduzione certificati
         url  : 
-      - name : Traduzione diplomi, tesi, lauree
+      - name : Traduzione diplomi, tesi di laurea
         url  : 

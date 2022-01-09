@@ -1,6 +1,6 @@
 enable  : true
 topTitle: Listino prezzi
-title   : LISTINO.
+title   : LISTINO
 subtitle : Costo a parola sorgente
 
 item  :
@@ -30,10 +30,10 @@ item  :
     price       : A partire da €0,08
     description : Dall’italiano e viceversa
     featurelist :
-      - item: UCRAINO - OLANDESE - DANESE
-      - item: NORVEGESE - BULGARO - SERBO
-      - item: CECO - SLOVACCO - POLACCO
-      - item: ALBANESE - GRECO
+      - item: UCRAINO - OLANDESE
+      - item: CECO - SLOVACCO
+      - item: ALBANESE - POLACCO
+      - item: GRECO - SERBO
     btnText     : Listino prezzi
     btnURL      : pricing/
 

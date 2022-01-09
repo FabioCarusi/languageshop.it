@@ -38,13 +38,13 @@ description = "This is meta description"
 weight = 1
 languageCode = "it-it"
 title = "LanguageShop - Agenzia di traduzioni online."
-dateFormat = "2 Gennaio 2006"
+dateFormat = "2006-01-02"
 
 home = "Home"
 logo = "images/logo.png"
 menufixed = false
 
-footerDescription = "LanguageShop offre servizi di traduzioni, traduzioni giurate, interpretariato su decine di lingue diverse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla, soluta dolorum.."
+footerDescription = "LanguageShop offre servizi di traduzione online: traduzioni asseverate, certificate, legali, mediche, traduzione siti web, traduzioni personali e molto altro!"
 footerServiceTitle = "Servizi"
 footerQuicklinkTitle = "Link"
 footerAboutTitle = "About"
@@ -74,18 +74,21 @@ description = "Languageshop è un team di traduttori in grado di fornire traduzi
 # Blog Section On Homepage
 [Languages.it.params.blog]
 enable  = true
-topTitle= "OUR UNTOLD STORY"
-title   = "Blog."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+topTitle= "SCOPRI IL MONDO DELLE TRADUZIONI"
+title   = "Blog"
+subtitle= "Per saperne di più sui vari tipi di traduzioni e su come lavora Languageshop, dai un’occhiata al nostro Blog!"
+authorBlog = "Scritto da"
+onBlog = "il"
 
 # Contact Section
 [Languages.it.params.contact]
 enable  = true
 topTitle= "Mandatici una mail"
-title   = "Contattaci."
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+title   = "Contattaci per un preventivo gratuito"
+subtitle= "Per conoscere il costo della tua traduzione, chiedici un preventivo gratuito e senza impegno!"
 address = "Pescara, Italia. Ma lavoriamo con tutto il mondo"
-phone   = "000125429393+" 
+phone   = "000125429393+"
+fax = "ti.pohsegaugnal@ofni"
 facebook= "https://www.facebook.com/languageshop.it"
 mapLatitude = "42.466359"
 mapLongitude= "14.208652"
@@ -95,10 +98,31 @@ mapMarker   = "images/marker.png"
 [Languages.it.params.cta]
 enable  = true
 bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "Contattaci"
-subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+title   = "Contattaci per un preventivo gratuito"
+subtitle= "Per conoscere il costo della tua traduzione, chiedici un preventivo gratuito e senza impegno!"
 btnText = "Contattaci"
 btnURL  = "contact/" # TODO: change this in production.
+formName = "Inserisci il nome"
+formNameError = "Inserisci il tuo nome"
+formEmail = "Inserisci la tua email"
+formEmailError = "La mail inserita non è valida"
+formSubject = "Oggetto"
+formMessage = "Messaggio"
+formMessageError = "Scrivi un messaggio"
+formUpload = "Aggiungi un file"
+formSubmit = "Invio"
+
+# 404 page
+[Languages.it.params.error]
+enable  = true
+title= "'Huston, abbiamo un problema'"
+subtitle = "Questa pagina che non esiste. Ma..."
+paragraph1 = "non essere triste puoi contattarci cliccando sul bottone qui:"
+button1 = "Contattaci"
+link = "http://localhost:1313/it/contact/" # TODO: remove in production
+paragraph2 = "oppure torna nella nostra homepage"
+button2 = "Home"
+
 
 ############# 2 - Site en ENGLISH
 [Languages.en]
@@ -139,6 +163,8 @@ enable  = true
 topTitle= "OUR UNTOLD STORY"
 title   = "Blog."
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
+authorBlog = "By"
+onBlog = "on"
 
 # Contact Section
 [Languages.en.params.contact]
@@ -157,9 +183,28 @@ mapMarker   = "images/marker.png"
 [Languages.en.params.cta]
 enable  = true
 bg      = "images/call-to-action/call-to-action-bg-2.jpg"
-title   = "Contattaci"
+title   = "Contact Us"
 subtitle= "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum reiciendis quasi itaque, obcaecati atque sit!"
-btnText = "Contattaci"
+btnText = "Contact Us"
+formName = "Please enter your name"
+formNameError = "Please enter your name"
+formEmail = "Please enter your email"
+formEmailError = "Please enter a valid email"
+formSubject = "Subject"
+formMessage = "Message"
+formMessageError = "Please enter your message"
+formUpload = "Upload file"
+formSubmit = "Submit"
+
+# 404 page
+[Languages.en.params.error]
+enable  = true
+title= "404 Page"
+subtitle = "Page Not Found"
+paragrap1 = "Sorry, but the page you were trying to view does not exist."
+button1 = "Contact Us"
+paragrap2 = "Sorry, but the page you were trying to view"
+button2 = "Go Home"
 
 # We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
 
@@ -189,32 +234,36 @@ weight  = 6
 
 # Footer Service Menu
 [[menu.service]]
-name    = "graphicdesign"
-url     = "service"
+name    = "traduzionecurriculum"
+url     = "traduzione-curriculum"
 weight  = 1
 [[menu.service]]
-name    = "webdesign"
-url     = "service"
+name    = "traduzioniasseverate"
+url     = "traduzioni_asseverate"
 weight  = 2
 [[menu.service]]
-name    = "webdevelopment"
-url     = "service"
+name    = "traduzionesitiweb"
+url     = "traduzione-siti-web"
+weight  = 4
+[[menu.service]]
+name    = "traduzionicertificate"
+url     = "traduzioni_certificate"
 weight  = 3
 
 # Footer Quick links Menu
 [[menu.quicklink]]
-name    = "partners"
-url     = "about"
-weight  = 1
+name    = "contatti"
+url     = "contact"
+weight  = 2
 [[menu.quicklink]]
 name    = "about"
 url     = "about"
-weight  = 2
+weight  = 1
 [[menu.quicklink]]
-name    = "faqs"
-url     = "about"
-weight  = 3
-[[menu.quicklink]]
-name    = "badges"
-url     = "about"
+name    = "blog1"
+url     = "blog"
 weight  = 4
+[[menu.quicklink]]
+name    = "listino1"
+url     = "pricing"
+weight  = 3

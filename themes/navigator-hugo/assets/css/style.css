@@ -1224,6 +1224,7 @@ a:focus, a:hover {
   margin-right: -1px;
   margin-bottom: -1px;
   transition: all 0.3s ease 0s;
+  height: 100%;
 }
 
 .service-2 .service-item .count {
@@ -1796,7 +1797,7 @@ a:focus, a:hover {
 }
 
 .page-404 h1 {
-  font-size: 200px;
+  font-size: 60px;
 }
 
 @media screen and (max-width: 600px) {
@@ -1839,4 +1840,46 @@ a:focus, a:hover {
   background-color:#f64c72;
   padding-right: 3px;
   color: white;
+}
+
+/*================================================================
+  File upload
+==================================================================*/
+
+input[type=file]::-ms-browse {
+  border: 0px solid;
+  padding: .2em .4em;
+  background-color: #f64c72;
+  color: white;
+}
+
+input[type=file]::-webkit-file-upload-button {
+  border: 0px solid;
+  padding: .2em .4em;
+  background-color: #f64c72;
+  transition: 1s;
+  color: white;
+}
+
+input[type=file]::file-selector-button {
+  border: 0px solid;
+  padding: .2em .4em;;
+  background-color: #f64c72;
+  transition: 1s;
+  color: white;
+}
+
+input[type=file]::-ms-browse:hover {
+  background-color: #f81d4d;
+  color: white;
+}
+
+input[type=file]::-webkit-file-upload-button:hover {
+  background-color: #f81d4d;
+  color: white;
+}
+
+
+input[type=file]::file-selector-button:hover {
+  background-color: #f81d4d;
 }
