@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://languageshop.netlify.app/"
 languageCode = "it-IT"
 title = "LanguageShop | Agenzia di traduzioni online"
 theme = "navigator-hugo"
