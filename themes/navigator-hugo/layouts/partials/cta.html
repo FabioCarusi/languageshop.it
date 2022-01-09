@@ -57,6 +57,7 @@
 								<input type="checkbox" name="condition" id="condition" required/>
 								<label for="condition"><a href="/it/conditions" target="_blank">Autorizzo il trattamento dei dati personali*</a></label> {{/*  TODO: change in production  */}}
 							</div>
+							<div data-netlify-recaptcha="true"></div>
 							<div id="cf-submit">
 								<input type="hidden" name="form-name" value="contact">
 								<button  id="contact-submit" type="submit">{{.Site.Params.cta.formSubmit}}</button>
