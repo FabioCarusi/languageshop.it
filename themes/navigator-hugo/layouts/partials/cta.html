@@ -18,8 +18,10 @@
 					</div>
 					{{ "<!-- Contact Form -->" | safeHTML }}
 					<div class="contact-form col-12 col-md-6 ">
-						<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-							<div class="form-group">
+{{/*  						<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+  */}}					
+  						<form accept-charset="UTF-8" action="https://getform.io/f/2f299c1d-3bf3-44d0-8bd3-9c80c7fab0e7" method="POST">
+  							<div class="form-group">
 								<input type="text" placeholder="{{.Site.Params.cta.formName}}" class="form-control" name="name" id="name" required>
 								<small id="namecheck" style="color: red">{{.Site.Params.cta.formNameError}}</small>
 							</div>
