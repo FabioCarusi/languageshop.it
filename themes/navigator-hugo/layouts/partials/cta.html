@@ -40,7 +40,11 @@
 							</div>  */}}
 							<div style="padding:10px" class=" justify-content-left">
 								<label for="fileUpload">{{.Site.Params.cta.formUpload}}</label>
-								<input type="file" name="file[]" id="fileUpload">
+								<input type="file" name="file1" id="fileUpload">
+								<label for="fileUpload">{{.Site.Params.cta.formUpload}}</label>
+								<input type="file" name="file2" id="fileUpload">
+								<label for="fileUpload">{{.Site.Params.cta.formUpload}}</label>
+								<input type="file" name="file3" id="fileUpload">
 								{{/*  <div class=" justify-content-left">*se i file da allegare sono più di uno, inviare una mail a: <a href="mailto:info@languageshop.it">info@languageshop.it</a></div  */}}>
 							</div>
 							{{/*<div style="padding:10px" class=" justify-content-left">
@@ -60,7 +64,7 @@
 								<label for="condition"><a href="/it/conditions" target="_blank">Autorizzo il trattamento dei dati personali*</a></label> {{/*  TODO: change in production  */}}
 							</div>
 							{{/*  <div class="form-group" data-netlify-recaptcha="true"></div>  */}}
-							<div class="g-recaptcha" data-sitekey="6LdebwAeAAAAAF1HxAlqzJL7DavL_55oAVDioWoS" required></div>
+							<div type="hiddenn" class="g-recaptcha" data-sitekey="6LdebwAeAAAAAF1HxAlqzJL7DavL_55oAVDioWoS" required></div>
 							<div id="cf-submit">
 								<input type="hidden" name="form-name" value="contact">
 								<button  id="contact-submit" type="submit">{{.Site.Params.cta.formSubmit}}</button>
