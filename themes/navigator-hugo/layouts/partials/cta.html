@@ -18,8 +18,7 @@
 					</div>
 					{{ "<!-- Contact Form -->" | safeHTML }}
 					<div class="contact-form col-12 col-md-6 ">
-{{/*  						<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
-  */}}					
+					{{/* <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">*/}}					
   						<form accept-charset="UTF-8" action="https://getform.io/f/2f299c1d-3bf3-44d0-8bd3-9c80c7fab0e7" method="POST" enctype="multipart/form-data">
   							<div class="form-group">
 								<input type="text" placeholder="{{.Site.Params.cta.formName}}" class="form-control" name="name" id="name" required>
@@ -32,7 +31,7 @@
 							<div class="form-group">
 								<input type="text" placeholder="{{.Site.Params.cta.formSubject}}" class="form-control" name="subject" id="subject" required>
 							</div>
-{{/*  							<div class="d-flex align-items-center justify-content-left">
+							{{/* <div class="d-flex align-items-center justify-content-left">
 								<div>Prova</div>
 								<div class="file-upload btn">
 									<span>Upload</span>
@@ -41,10 +40,10 @@
 							</div>  */}}
 							<div style="padding:10px" class=" justify-content-left">
 								<label for="fileUpload">{{.Site.Params.cta.formUpload}}</label>
-								<input type="file" name="file" id="fileUpload">
-								<div class=" justify-content-left">*se i file da allegare sono più di uno, inviare una mail a: <a href="mailto:info@languageshop.it">info@languageshop.it</a></div>
+								<input type="file" name="file[]" id="fileUpload">
+								{{/*  <div class=" justify-content-left">*se i file da allegare sono più di uno, inviare una mail a: <a href="mailto:info@languageshop.it">info@languageshop.it</a></div  */}}>
 							</div>
-{{/*  							<div style="padding:10px" class=" justify-content-left">
+							{{/*<div style="padding:10px" class=" justify-content-left">
 								<label for="fileUpload">{{.Site.Params.cta.formUpload}}</label>
 								<input type="file" name="file" id="fileUpload">
 							</div>
@@ -61,7 +60,7 @@
 								<label for="condition"><a href="/it/conditions" target="_blank">Autorizzo il trattamento dei dati personali*</a></label> {{/*  TODO: change in production  */}}
 							</div>
 							{{/*  <div class="form-group" data-netlify-recaptcha="true"></div>  */}}
-							<div type="hidden" class="g-recaptcha" data-sitekey="6LdebwAeAAAAAF1HxAlqzJL7DavL_55oAVDioWoS"></div>
+							<div class="g-recaptcha" data-sitekey="6LdebwAeAAAAAF1HxAlqzJL7DavL_55oAVDioWoS" required></div>
 							<div id="cf-submit">
 								<input type="hidden" name="form-name" value="contact">
 								<button  id="contact-submit" type="submit">{{.Site.Params.cta.formSubmit}}</button>
