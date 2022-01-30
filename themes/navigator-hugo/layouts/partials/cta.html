@@ -29,7 +29,10 @@
 								<small id="emailvalid" style="color: red" class="form-text text-muted invalid-feedback">{{.Site.Params.cta.formEmailError}}</small>
 							</div>
 							<div class="form-group">
-								<input type="text" placeholder="{{.Site.Params.cta.formSubject}}" class="form-control" name="subject" id="subject" required>
+								<input type="text" placeholder="{{.Site.Params.cta.formLanguage1}}" class="form-control" name="sourcelanguage" id="sourcelanguage" required>
+							</div>
+							<div class="form-group">
+								<input type="text" placeholder="{{.Site.Params.cta.formLanguage2}}" class="form-control" name="targetlanguage" id="targetlanguage" required>
 							</div>
 							{{/* <div class="d-flex align-items-center justify-content-left">
 								<div>Prova</div>
