@@ -8,7 +8,7 @@ item      :
     list  :
       - name : Traduzioni asseverate
         url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
-      - name : Traduzioni assecertificateverate
+      - name : Traduzioni certificate
         url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
       - name : Traduzioni atti
         url  : http://192.168.1.102:1313/it/traduzioni_asseverate/
