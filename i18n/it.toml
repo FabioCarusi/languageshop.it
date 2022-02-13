@@ -8,6 +8,8 @@ other = "Listino"
 other = "Blog"
 [contact]
 other = "Preventivo"
+[contacts]
+other = "Contattaci"
 
 [traduzionecurriculum]
 other = "Traduzione Curriculum"

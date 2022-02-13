@@ -232,6 +232,10 @@ weight  = 5
 name    = "contact"
 url     = "contact"
 weight  = 6
+[[menu.nav]]
+name    = "contacts"
+url     = "contacts"
+
 
 # Footer Service Menu
 [[menu.service]]
@@ -254,7 +258,7 @@ weight  = 3
 # Footer Quick links Menu
 [[menu.quicklink]]
 name    = "contatti"
-url     = "contact"
+url     = "contacts"
 weight  = 2
 [[menu.quicklink]]
 name    = "about"
