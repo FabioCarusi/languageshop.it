@@ -1,3 +1,12 @@
+<script>
+	grecaptcha.ready(function() {
+		grecaptcha.execute('YOUR_SITE_KEY', {action: 'homepage'})
+		.then(function(token) {
+		  document.getElementById('captchaResponse').value = token;
+		});
+	  });
+ </script>
+
 {{ if .Site.Params.cta.enable }}
 {{ "<!-- Start Call To Action -->" | safeHTML }}
 <section class="call-to-action section" id="call-to-action">
@@ -44,8 +53,8 @@
 										dati personali*</a></label> {{/* TODO: change in production */}}
 							</div>
 
-							<div type="hidden" class="g-recaptcha"
-								data-sitekey="6LdebwAeAAAAAF1HxAlqzJL7DavL_55oAVDioWoS" required></div>
+							{{/*  <div type="hidden" class="g-recaptcha" data-sitekey="6LdebwAeAAAAAF1HxAlqzJL7DavL_55oAVDioWoS" required></div>  */}}
+							<input type="hidden" id="captchaResponse" name="g-recaptcha-response">
 							<div id="cf-submit">
 								<input type="hidden" name="form-name" value="contact">
 								<button id="contact-submit" type="submit">{{.Site.Params.cta.formSubmit}}</button>
