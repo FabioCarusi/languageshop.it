@@ -3,6 +3,8 @@
 		grecaptcha.execute('6LdQf3YeAAAAABA2VHde1UrFvfUeVX8hEHSWja2X', {action: 'homepage'})
 		.then(function(token) {
 		  document.getElementById('captchaResponse').value = token;
+		  console.log(token)
+		  console.log(captchaResponse)
 		});
 	  });
  </script>
