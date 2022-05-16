@@ -7,13 +7,13 @@ item      :
     title : Legali
     list  :
       - name : Traduzioni asseverate
-        url  : http://www.languageshop.it/it/traduzioni_asseverate/
+        url  : https://www.languageshop.it/it/traduzioni_asseverate/
       - name : Traduzioni certificate
-        url  : http://www.languageshop.it/it/traduzioni_asseverate/
+        url  : https://www.languageshop.it/it/traduzioni_certificate/
       - name : Traduzioni atti
-        url  : http://www.languageshop.it/it/traduzioni_asseverate/
+        url  : https://www.languageshop.it/it/traduzioni_asseverate/
       - name : Traduzioni procure
-        url  : http://www.languageshop.it/it/traduzioni_certificate/
+        url  : https://www.languageshop.it/it/traduzioni_certificate/
 
   - icon  : tf-ion-ios-alarm-outline
     title : Business

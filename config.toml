@@ -120,7 +120,7 @@ title= "'Huston, abbiamo un problema'"
 subtitle = "Questa pagina che non esiste. Ma..."
 paragraph1 = "non essere triste puoi contattarci cliccando sul bottone qui:"
 button1 = "Contattaci"
-link = "http://www.languageshop.it/it/contact/" # TODO: remove in production
+link = "https://www.languageshop.it/it/contact/" # TODO: remove in production
 paragraph2 = "oppure torna nella nostra homepage"
 button2 = "Home"
 
