@@ -8,7 +8,17 @@
 
   gtag('config', 'UA-28682505-1');
 </script>
-<script type="text/javascript" src="//www.shift4shop.com/lp/cookie-law-generator/cookie.js?delay=0&amp;link_color=f6007b&amp;msg=Usiamo%20i%20cookies%20per%20comprendere%20come%20utilizzi%20il%20sito%20e%20migliorare%20la%20tua%20esperienza.%20Per%20saperne%20di%20pi%C3%B9%3A%20%5Burl%3Dhttps%3A%2F%2Fwww.languageshop.it%2Fit%2Fprivacy%2F%5Dclicca%20qui%5B%2Furl%5D.%20Continuando%20a%20utilizzare%20questo%20sito%20accetti%20l'utilizzo%20di%20questi%20cookies%20%5Burl%3Dhttps%3A%2F%2Fwww.languageshop.it%2Fit%2Fprivacy%2F%5DPrivacy%5B%2Furl%5D%20e%20%5Burl%3Dhttps%3A%2F%2Fwww.languageshop.it%2Fit%2Fconditions%2F%5DTermini%20e%20condizioni%5B%2Furl%5D.&amp;morelink=https%3A%2F%2Fwww.languageshop.it%2Fit%2Fconditions%2F&amp;learnmore=Per%20saperne%20di%20pi%C3%B9&amp;accept_text=Accetto"></script>
+<!--<script type="text/javascript" src="//www.shift4shop.com/lp/cookie-law-generator/cookie.js?delay=0&amp;link_color=f6007b&amp;msg=Usiamo%20i%20cookies%20per%20comprendere%20come%20utilizzi%20il%20sito%20e%20migliorare%20la%20tua%20esperienza.%20Per%20saperne%20di%20pi%C3%B9%3A%20%5Burl%3Dhttps%3A%2F%2Fwww.languageshop.it%2Fit%2Fprivacy%2F%5Dclicca%20qui%5B%2Furl%5D.%20Continuando%20a%20utilizzare%20questo%20sito%20accetti%20l'utilizzo%20di%20questi%20cookies%20%5Burl%3Dhttps%3A%2F%2Fwww.languageshop.it%2Fit%2Fprivacy%2F%5DPrivacy%5B%2Furl%5D%20e%20%5Burl%3Dhttps%3A%2F%2Fwww.languageshop.it%2Fit%2Fconditions%2F%5DTermini%20e%20condizioni%5B%2Furl%5D.&amp;morelink=https%3A%2F%2Fwww.languageshop.it%2Fit%2Fconditions%2F&amp;learnmore=Per%20saperne%20di%20pi%C3%B9&amp;accept_text=Accetto"></script>-->
+<script src="{{`/cookies/glowCookies.js` | absURL }}"></script>
+<script>
+  glowCookies.start('it', { 
+      style: 3,
+      analytics: 'UA-28682505-1', 
+      policyLink: 'https://www.languageshop.it/it/privacy/', 
+      hideAfterClick: "True",
+      bannerDescription: "Usiamo alcuni cookies di terze parti per comprendere come utilizzi il sito e migliorare la tua esperienza." 
+  });
+</script>
 
 <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
 
@@ -39,6 +49,7 @@
 
 <script src="https://www.google.com/recaptcha/api.js"></script>
 
+
 {{"<!-- Stylesheets -->" | safeHTML}}
 {{ "<!-- Themefisher Icon font -->" | safeHTML }}
 <link rel="stylesheet" href="{{ `plugins/themefisher-font/style.css` | absURL }}">
@@ -53,5 +64,7 @@
 
 {{ $styles := resources.Get "css/style.css" | minify}}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
+
+<link rel="stylesheet" href="{{`/cookies/glowCookies.css` | absURL }}">
 
 </head>
