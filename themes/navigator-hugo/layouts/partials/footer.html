@@ -36,7 +36,7 @@
         <!--<h6>Contattaci <a href="mailto:info@languageshop.it">info@languageshop.it</a> +39 392 4521000 -->
         </h6>
         
-        <h6>P.IVA 01995470687 - <a href="http://www.languageshop.it/it/privacy/" target="_blank">Privacy</a> - <a href="http://www.languageshop.it/it/conditions/"
+        <h6>P.IVA 01995470687 - <a href="https://www.languageshop.it/it/privacy/" target="_blank">Privacy</a> - <a href="https://www.languageshop.it/it/conditions/"
                 target="_blank">Condizioni d'uso</a>
             <br>Template usato
             <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
@@ -44,7 +44,7 @@
         {{end}}
         {{if eq .Site.Params.languageCode "en-us"}}
         <h5>Tutti i contenuti sono coperti da copyright - E' vietata la riproduzione</h5> <!--TODO: translate it-->
-        <h6>P.IVA 01995470687 - <a href="http://www.languageshop.it/en/conditions/" target="_blank">Privacy page</a> - <a href="http://www.languageshop.it/en/conditions/"
+        <h6>P.IVA 01995470687 - <a href="https://www.languageshop.it/en/conditions/" target="_blank">Privacy page</a> - <a href="https://www.languageshop.it/en/conditions/"
                 target="_blank">Condition</a>
             <br>Template
             <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Free Bootstrap Templates</a>
@@ -72,7 +72,6 @@
 <script src="{{ `plugins/filterzr/jquery.filterizr.min.js` | absURL }}"></script>
 {{ "<!-- Smooth Scroll js -->" | safeHTML }}
 <script src="{{ `plugins/smooth-scroll/dist/js/smooth-scroll.min.js` | absURL }}"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
