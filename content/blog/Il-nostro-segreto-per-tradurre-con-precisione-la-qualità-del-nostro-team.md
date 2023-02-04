@@ -6,8 +6,7 @@ description: "tradurre con precisione il nostro segreto"
 image: "images/blog/post-2.jpg"
 ---
 ## Tradurre: un’arte che richiede precisione 
-Le [traduzioni asseverate]({{< ref "/traduzioni_asseverate" >}} Noi di 
-Languageshop.it crediamo che la traduzione sia un'arte che richiede precisione, attenzione ai dettagli e conoscenza delle lingue e culture coinvolte. Ecco perché lavoriamo solo con traduttori altamente qualificati e esperti nei vari settori, come medicina, finanza, legale, tecnologia e molto altro.
+Noi di Languageshop.it crediamo che la traduzione sia un'arte che richiede precisione, attenzione ai dettagli e conoscenza delle lingue e culture coinvolte. Ecco perché lavoriamo solo con traduttori altamente qualificati e esperti nei vari settori, come medicina, finanza, legale, tecnologia e molto altro.
 La precisione è fondamentale nella traduzione per evitare confusione, malintesi e persino danni legali. Ad esempio, in ambito medico o legale, una traduzione imprecisa può avere conseguenze gravi per la salute o i diritti delle persone coinvolte. In un mondo sempre più globalizzato, la traduzione è diventata uno strumento fondamentale per la comunicazione e il commercio internazionali, e noi vogliamo che i nostri clienti possano affidarsi alla nostra precisione.
 ## Come garantiamo la precisione delle nostre traduzioni
 Per garantire la precisione delle traduzioni, adottiamo un processo di revisione rigoroso, che garantisce che ogni traduzione (rigorosamente umana) venga riveduta e corretta da un secondo traduttore. 
