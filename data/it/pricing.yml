@@ -14,7 +14,7 @@ item  :
       - item: SPAGNOLO
       - item:
     btnText     : Listino prezzi
-    btnURL      : pricing/
+    btnURL      : it/pricing/
   - #name        : ADVANCE
     price       : A partire da €0,07
     description : Dall’italiano e viceversa
@@ -24,7 +24,7 @@ item  :
       - item: RUSSO
       - item: RUMENO
     btnText     : Listino prezzi
-    btnURL      : pricing/
+    btnURL      : it/pricing/
 
   - #name        : PROFESSIONAL
     price       : A partire da €0,08
@@ -35,7 +35,7 @@ item  :
       - item: ALBANESE - POLACCO
       - item: GRECO - SERBO
     btnText     : Listino prezzi
-    btnURL      : pricing/
+    btnURL      : it/pricing/
 
   - #name        : PROFESSIONAL
     price       : A partire da €0,09
@@ -47,4 +47,4 @@ item  :
       - item: GIAPPONESE
       - item:
     btnText     : Listino prezzi
-    btnURL      : pricing/
+    btnURL      : it/pricing/
